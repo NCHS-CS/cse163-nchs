@@ -17,3 +17,11 @@
   height: 100px;
   width: auto;
 }
+
+.code-example .myst-admonition-body {
+  padding: 0;
+}
+
+.code-example .myst-code {
+  margin: 0;
+}

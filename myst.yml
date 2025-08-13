@@ -29,6 +29,8 @@ project:
     lite: true
   toc:
     - file: README.md
+    - file: style-guide.md
+      hidden: true
     - file: teaching-assistants.md
     - title: Lectures
       children:
@@ -79,6 +81,9 @@ site:
   options:
     logo_text: CSE 163 Autumn 2025
     style: style.css
+  nav:
+    - title: Style Guide
+      url: /style-guide
   actions:
     - title: JupyterHub
       url: http://jupyter.rttl.uw.edu/2025-autumn-cse-163-a/
