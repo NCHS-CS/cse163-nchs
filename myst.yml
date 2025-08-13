@@ -32,6 +32,7 @@ project:
     - file: style-guide.md
       hidden: true
     - file: teaching-assistants.md
+      hidden: true
     - title: Lectures
       children:
         - file: lectures/control-structures.ipynb
@@ -83,6 +84,8 @@ site:
   nav:
     - title: Style Guide
       url: /style-guide
+    - title: Teaching Assistants
+      url: /teaching-assistants
   actions:
     - title: JupyterHub
       url: http://jupyter.rttl.uw.edu/2025-autumn-cse-163-a/
