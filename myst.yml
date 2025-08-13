@@ -25,8 +25,6 @@ project:
       url: https://kevinl.info
       github: kevinlin1
   github: cse163/website
-  jupyter:
-    lite: true
   toc:
     - file: README.md
     - file: style-guide.md
