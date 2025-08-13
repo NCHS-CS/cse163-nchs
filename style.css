@@ -1,0 +1,19 @@
+.myst-card-body {
+  display: flex;
+  gap: 1rem;
+}
+
+.myst-card-body p {
+  margin: 0;
+}
+
+.myst-card-title {
+  flex-shrink: 0;
+  padding-top: 0;
+}
+
+.myst-card-title img {
+  border-radius: 50%;
+  height: 100px;
+  width: auto;
+}

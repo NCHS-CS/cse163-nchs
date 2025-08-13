@@ -1,0 +1,84 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 90832631-ca8e-4992-ac4c-5a3c90c0b70a
+  title: CSE 163 Autumn 2025
+  subtitle: University of Washington
+  short_title: CSE 163
+  description: Intermediate Data Programming
+  license:
+    content: CC-BY-NC-SA-4.0
+    code: MIT
+  exclude:
+    - env
+  keywords:
+    - programming
+    - data science
+    - computer science
+  authors:
+    - id: kevin-lin
+      orcid: 0000-0001-9946-3635
+      name: Kevin Lin
+      affiliation: University of Washington
+      corresponding: true
+      email: kevinl@cs.uw.edu
+      url: https://kevinl.info
+      github: kevinlin1
+  github: cse163/website
+  jupyter:
+    lite: true
+  toc:
+    - file: README.md
+    - file: teaching-assistants.md
+    - title: Lectures
+      children:
+        - file: lectures/control-structures.ipynb
+        - file: lectures/strings-and-lists.ipynb
+        - file: lectures/file-processing.ipynb
+        - file: lectures/data-structures.ipynb
+        - file: lectures/csv-data.ipynb
+        - file: lectures/data-frames.ipynb
+        - file: lectures/groupby-and-indexing.ipynb
+        - file: lectures/spreadsheets.ipynb
+        - file: lectures/data-visualization.ipynb
+        - file: lectures/data-settings.ipynb
+        - file: lectures/objects.ipynb
+        - file: lectures/asymptotic-analysis.ipynb
+        - file: lectures/learning-algorithms.ipynb
+        - file: lectures/model-evaluation.ipynb
+        - file: lectures/bias-variance-bias-and-bias.ipynb
+        - file: lectures/geospatial-data-frames.ipynb
+        - file: lectures/dissolve-intersect-and-join.ipynb
+        - file: lectures/numpy.ipynb
+        - file: lectures/convolutions.ipynb
+        - file: lectures/neural-networks.ipynb
+        - file: lectures/language-models.ipynb
+        - file: lectures/large-language-models.ipynb
+    - title: Sections
+      children:
+        - file: sections/python-fundamentals.ipynb
+        - file: sections/data-structures-and-files.ipynb
+        - file: sections/pandas-fundamentals.ipynb
+        - file: sections/information-representation.ipynb
+        - file: sections/object-oriented-programming.ipynb
+        - file: sections/machine-learning.ipynb
+        - file: sections/geospatial-data.ipynb
+        - file: sections/accessibility-simulations.ipynb
+    - title: Homework
+      children:
+        - file: homework/processing.ipynb
+        - file: homework/pokemon.ipynb
+        - file: homework/search.ipynb
+    - title: Assessments
+      children:
+        - file: assessments/education.ipynb
+        - file: assessments/mapping.ipynb
+    - file: project.ipynb
+site:
+  template: book-theme
+  options:
+    logo_text: CSE 163 Autumn 2025
+    style: style.css
+  actions:
+    - title: JupyterHub
+      url: http://jupyter.rttl.uw.edu/2025-autumn-cse-163-a/
