@@ -75,7 +75,6 @@ project:
       children:
         - file: assessments/education.ipynb
         - file: assessments/mapping.ipynb
-    - file: project.ipynb
 site:
   template: book-theme
   options:
