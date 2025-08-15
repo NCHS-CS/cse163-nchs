@@ -4,26 +4,19 @@ stages:
 
 variables:
   LC_ALL: en_US.UTF-8
-  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
 
-cache:
-  paths:
-    - .cache/pip
-
-pages:
+jupyter-book:
   stage: build
   tags:
-    - courseweb
-  image: python:3.13
+    - pages
+  image: node:18
   before_script:
-    - python3 -m venv env
-    - source env/bin/activate
-    - pip install -r requirements.txt
+    - npm install -g jupyter-book
   script:
     - jupyter-book build --html
   artifacts:
     paths:
-      - _build
+      - _build/html
 
 courseweb:
   stage: deploy
@@ -41,4 +34,4 @@ courseweb:
   only:
     - main
   dependencies:
-    - pages
+    - jupyter-book
