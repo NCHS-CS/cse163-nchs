@@ -74,6 +74,8 @@ project:
       children:
         - file: assessments/education.ipynb
         - file: assessments/mapping.ipynb
+  plugins:
+    - schedule.mjs
 site:
   template: book-theme
   options:
