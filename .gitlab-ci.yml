@@ -4,19 +4,24 @@ stages:
 
 variables:
   LC_ALL: en_US.UTF-8
+  course: cse163
+  quarter: 25au
+  source_path: _build/html
 
 jupyter-book:
   stage: build
   tags:
     - pages
   image: node:18
+  variables:
+    BASE_URL: /courses/$course/$quarter
   before_script:
     - npm install -g jupyter-book
   script:
     - jupyter-book build --html
   artifacts:
     paths:
-      - _build/html
+      - $source_path
 
 courseweb:
   stage: deploy
@@ -26,9 +31,6 @@ courseweb:
     - /www/utils/deploycourseweb.sh
   cache: {}
   variables:
-    course: cse163
-    quarter: 25au
-    source_path: _build/html
     delete: 'yes' # https://yaml.org/type/bool.html
     GIT_STRATEGY: none
   only:
