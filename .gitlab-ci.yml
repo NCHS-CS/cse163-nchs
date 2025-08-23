@@ -12,7 +12,7 @@ jupyter-book:
   stage: build
   tags:
     - pages
-  image: node:18
+  image: node:24
   variables:
     BASE_URL: /courses/$course/$quarter
   before_script:
