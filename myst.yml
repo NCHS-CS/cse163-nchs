@@ -9,8 +9,6 @@ project:
   license:
     content: CC-BY-NC-SA-4.0
     code: MIT
-  exclude:
-    - env
   keywords:
     - programming
     - data science
