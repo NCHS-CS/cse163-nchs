@@ -1,11 +1,10 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: 90832631-ca8e-4992-ac4c-5a3c90c0b70a
-  title: CSE 163 Autumn 2025
-  subtitle: University of Washington
-  short_title: CSE 163
-  description: Intermediate Data Programming
+  title: Intermediate Data Programming
+  subtitle: North Creek High School
+  short_title: IDP
+  description: Data Science
   license:
     content: CC-BY-NC-SA-4.0
     code: MIT
@@ -16,21 +15,19 @@ project:
     - data science
     - computer science
   authors:
-    - id: kevin-lin
-      orcid: 0000-0001-9946-3635
-      name: Kevin Lin
-      affiliation: University of Washington
+    - id: jason-rukman
+      name: Jason Rukman
+      affiliation: North Creek High School
       corresponding: true
       email: kevinl@cs.uw.edu
-      url: https://kevinl.info
-      github: kevinlin1
-  github: cse163/website
+      url: https://nchs-cs.github.io/#meet-our-team
+      github: unclej
+  github: NCHS-CS/cse163-nchs
   toc:
     - file: README.md
     - file: style-guide.md
       hidden: true
-    - file: teaching-assistants.md
-      hidden: true
+
     - title: Lectures
       children:
         - file: lectures/control-structures.ipynb
@@ -77,13 +74,11 @@ project:
 site:
   template: book-theme
   options:
-    logo_text: CSE 163 Autumn 2025
+    logo_text: Intermediate Data Programming
     style: style.css
   nav:
     - title: Style Guide
       url: /style-guide
-    - title: Teaching Assistants
-      url: /teaching-assistants
   actions:
-    - title: JupyterHub
-      url: http://jupyter.rttl.uw.edu/2025-autumn-cse-163-a/
+    - title: Jupyter Lite
+      url: https://nchs-cs.github.io/lite/lab/
