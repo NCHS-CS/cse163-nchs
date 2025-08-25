@@ -25,9 +25,9 @@ project:
   github: cse163/website
   toc:
     - file: README.md
-    - file: style-guide.md
+    - file: staff.md
       hidden: true
-    - file: teaching-assistants.md
+    - file: style-guide.md
       hidden: true
     - title: Lectures
       children:
@@ -80,10 +80,10 @@ site:
     logo_text: CSE 163 Autumn 2025
     style: style.css
   nav:
+    - title: Staff
+      url: /staff
     - title: Style Guide
       url: /style-guide
-    - title: Teaching Assistants
-      url: /teaching-assistants
   actions:
     - title: JupyterHub
       url: http://jupyter.rttl.uw.edu/2025-autumn-cse-163-a/
