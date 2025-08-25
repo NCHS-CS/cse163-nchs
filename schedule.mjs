@@ -24,9 +24,10 @@ function tableRow(cells) {
 const classes = {
   lecture: { background: '#4E66F6', borderRadius: 8, color: 'white', padding: 5 },
   section: { background: '#7A77B4', borderRadius: 8, color: 'white', padding: 5 },
-  quiz: { background: '#B83BC0', borderRadius: 8, color: 'white', padding: 5 },
+  interview: { background: '#B83BC0', borderRadius: 8, color: 'white', padding: 5 },
+  homework: { background: '#B83BC0', borderRadius: 8, color: 'white', padding: 5 },
+  assessment: { background: '#B83BC0', borderRadius: 8, color: 'white', padding: 5 },
   project: { background: '#D43B21', borderRadius: 8, color: 'white', padding: 5 },
-  exam: { background: '#B83BC0', borderRadius: 8, color: 'white', padding: 5 },
 }
 
 const scheduleDirective = {
@@ -47,13 +48,13 @@ const scheduleDirective = {
         .map((day) => {
           const rows = day.items.map(({ type, name, href, auxil }) =>
             tableRow([
-              tableCell([span(`${type}`, classes[type.toLowerCase()])], { style: { width: '10%' } }),
+              tableCell([span(`${type}`, classes[type.toLowerCase()])], { style: { width: '17.5%' } }),
               href ? tableCell([link(name, href)]) : tableCell([text(name)]),
               auxil ? tableCell([link(auxil.id, auxil.href)]) : tableCell([]),
             ])
           );
           // Put a header on the first row that spans all of them!
-          rows[0].children.unshift(tableCell(day.date, { style: { width: '15%' }, rowspan: day.items.length }));
+          rows[0].children.unshift(tableCell(day.date, { style: { width: '17.5%' }, rowspan: day.items.length }));
           return rows;
         })
         .flat(); // turns this into a flat list of children
