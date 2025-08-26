@@ -4,6 +4,8 @@
       items:
         - type: Lecture
           name: Control Structures
+        - type: Project
+          name: Dataset Exploration
     - date: Thu, Sep 25
       items:
         - type: Section
@@ -30,6 +32,8 @@
       items:
         - type: Lecture
           name: CSV Data
+        - type: Project
+          name: Proposal
 - name: Pandas
   days:
     - date: Mon, Oct 6
@@ -49,7 +53,7 @@
     - date: Fri, Oct 10
       items:
         - type: Lecture
-          name: Spreadsheets
+          name: Version Control
     - date: Mon, Oct 13
       items:
         - type: Lecture
@@ -68,6 +72,8 @@
       items:
         - type: Lecture
           name: Objects
+        - type: Project
+          name: Exploratory Data Analysis
 - name: Software Engineering
   days:
     - date: Mon, Oct 20
@@ -91,37 +97,41 @@
     - date: Mon, Oct 27
       items:
         - type: Lecture
-          name: Learning Algorithms
-    - date: Wed, Oct 29
-      items:
-        - type: Lecture
-          name: Model Evaluation
-    - date: Thu, Oct 30
-      items:
-        - type: Section
-          name: Machine Learning
+          name: Geospatial Data Frames
         - type: Interview
           name: Education
-    - date: Fri, Oct 31
-      items:
-        - type: Lecture
-          name: Model Evaluation (continued)
-- name: Applications
-  days:
-    - date: Mon, Nov 3
-      items:
-        - type: Lecture
-          name: Geospatial Data Frames
-    - date: Wed, Nov 5
+    - date: Wed, Oct 29
       items:
         - type: Lecture
           name: Dissolve, Intersect, and Join
         - type: Assessment
           name: Mapping
-    - date: Thu, Nov 6
+    - date: Thu, Oct 30
       items:
         - type: Section
           name: Geospatial Data
+    - date: Fri, Oct 31
+      items:
+        - type: Lecture
+          name: Learning Algorithms
+        - type: Project
+          name: Notebook
+- name: Applications
+  days:
+    - date: Mon, Nov 3
+      items:
+        - type: Lecture
+          name: Model Evaluation
+        - type: Interview
+          name: Exploratory Data Analysis
+    - date: Wed, Nov 5
+      items:
+        - type: Lecture
+          name: Model Evaluation (continued)
+    - date: Thu, Nov 6
+      items:
+        - type: Section
+          name: Machine Learning
     - date: Fri, Nov 7
       items:
         - type: Lecture
@@ -130,6 +140,8 @@
       items:
         - type: Lecture
           name: Convolutions
+        - type: Interview
+          name: Mapping
     - date: Wed, Nov 12
       items:
         - type: Lecture
@@ -142,6 +154,8 @@
       items:
         - type: Lecture
           name: Neural Networks (continued)
+        - type: Project
+          name: Peer Review
 - name: Project
   days:
     - date: Mon, Nov 17
@@ -155,9 +169,7 @@
     - date: Thu, Nov 20
       items:
         - type: Section
-          name: Project Work
-        - type: Interview
-          name: Mapping
+          name: Project Panel Practice
     - date: Fri, Nov 21
       items:
         - type: Lecture
