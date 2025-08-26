@@ -1,6 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
+  downloads: []   # removes the default "source file" link everywhere
   title: Intermediate Data Programming
   subtitle: North Creek High School
   short_title: IDP
@@ -19,7 +20,7 @@ project:
       name: Jason Rukman
       affiliation: North Creek High School
       corresponding: true
-      email: kevinl@cs.uw.edu
+      email: jrukman@nsd.org
       url: https://nchs-cs.github.io/#meet-our-team
       github: unclej
   github: NCHS-CS/cse163-nchs
