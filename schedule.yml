@@ -165,16 +165,16 @@
     - date: Mon, Dec 1
       items:
         - type: Lecture
-          name: TBA
+          name: Project Panels
     - date: Wed, Dec 3
       items:
         - type: Lecture
-          name: Teaching Team Q&A
+          name: Project Panels
     - date: Thu, Dec 4
       items:
         - type: Section
-          name: Project Check-in
+          name: TBA
     - date: Fri, Dec 5
       items:
         - type: Lecture
-          name: Next Steps
+          name: Project Panels
