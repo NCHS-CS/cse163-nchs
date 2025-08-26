@@ -43,11 +43,11 @@ project:
         - file: lectures/data-settings.ipynb
         - file: lectures/objects.ipynb
         - file: lectures/asymptotic-analysis.ipynb
+        - file: lectures/geospatial-data-frames.ipynb
+        - file: lectures/dissolve-intersect-and-join.ipynb
         - file: lectures/learning-algorithms.ipynb
         - file: lectures/model-evaluation.ipynb
         - file: lectures/bias-variance-bias-and-bias.ipynb
-        - file: lectures/geospatial-data-frames.ipynb
-        - file: lectures/dissolve-intersect-and-join.ipynb
         - file: lectures/numpy.ipynb
         - file: lectures/convolutions.ipynb
         - file: lectures/neural-networks.ipynb
@@ -60,8 +60,8 @@ project:
         - file: sections/pandas-fundamentals.ipynb
         - file: sections/information-representation.ipynb
         - file: sections/object-oriented-programming.ipynb
-        - file: sections/machine-learning.ipynb
         - file: sections/geospatial-data.ipynb
+        - file: sections/machine-learning.ipynb
         - file: sections/accessibility-simulations.ipynb
     - title: Homework
       children:
