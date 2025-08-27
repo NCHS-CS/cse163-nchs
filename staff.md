@@ -1,7 +1,7 @@
 # Staff
 
 ```{card} ![Headshot of Kevin Lin](https://kevinl.info/assets/images/kevin-lin.webp)
-:header: **Kevin Lin**
+:header: **Kevin Lin** (he/him)
 :footer: **Office Hour**: Wed 4:30–6:20 PM
 :url: https://kevinl.info/
 
