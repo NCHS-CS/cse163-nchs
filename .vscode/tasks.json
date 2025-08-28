@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "MyST: Clean",
+      "type": "shell",
+      "command": "npx myst clean",
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": []
+    },
+    {
+      "label": "MyST: Build",
+      "type": "shell",
+      "command": "npx myst build",
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": [],
+      "dependsOn": ["MyST: Clean"]
+    },
+    {
+      "label": "MyST: Start Dev Server",
+      "type": "shell",
+      "command": "npx myst start --port 3000",
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": []
+    }
+  ]
+}

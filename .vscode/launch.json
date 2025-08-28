@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "MyST: Build & Start Server",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npx myst start --port 3000",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "MyST: Build"
+    },
+    {
+      "name": "MyST: Build Only",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npx myst build",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
