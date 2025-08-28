@@ -9,8 +9,6 @@ project:
   license:
     content: CC-BY-NC-SA-4.0
     code: MIT
-  exclude:
-    - env
   keywords:
     - programming
     - data science
@@ -26,6 +24,8 @@ project:
   github: NCHS-CS/cse163-nchs
   toc:
     - file: README.md
+    - file: staff.md
+      hidden: true
     - file: style-guide.md
       hidden: true
 
@@ -43,11 +43,11 @@ project:
         - file: lectures/data-settings.ipynb
         - file: lectures/objects.ipynb
         - file: lectures/asymptotic-analysis.ipynb
+        - file: lectures/geospatial-data-frames.ipynb
+        - file: lectures/dissolve-intersect-and-join.ipynb
         - file: lectures/learning-algorithms.ipynb
         - file: lectures/model-evaluation.ipynb
         - file: lectures/bias-variance-bias-and-bias.ipynb
-        - file: lectures/geospatial-data-frames.ipynb
-        - file: lectures/dissolve-intersect-and-join.ipynb
         - file: lectures/numpy.ipynb
         - file: lectures/convolutions.ipynb
         - file: lectures/neural-networks.ipynb
@@ -60,8 +60,8 @@ project:
         - file: sections/pandas-fundamentals.ipynb
         - file: sections/information-representation.ipynb
         - file: sections/object-oriented-programming.ipynb
-        - file: sections/machine-learning.ipynb
         - file: sections/geospatial-data.ipynb
+        - file: sections/machine-learning.ipynb
         - file: sections/accessibility-simulations.ipynb
     - title: Homework
       children:
@@ -72,12 +72,16 @@ project:
       children:
         - file: assessments/education.ipynb
         - file: assessments/mapping.ipynb
+#  plugins:
+#    - schedule.mjs
 site:
   template: book-theme
   options:
     logo_text: Intermediate Data Programming
     style: style.css
   nav:
+    - title: Staff
+      url: /staff
     - title: Style Guide
       url: /style-guide
   actions:

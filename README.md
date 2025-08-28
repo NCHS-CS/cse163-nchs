@@ -1,23 +1,27 @@
-# Intermediate Data Programming
+---
+title: Intermediate Data Programming
+subtitle: North Creek High School
+---
 
-```{card} ![Headshot of Jason Rukman](./rukman_jason.png)
-:header: *Jason Rukman**
+:::{card} ![Headshot of Jason Rukman](./rukman_jason.png)
+:header: *Jason Rukman*
 :url: mailto:jrukman@nsd.org
 
 Originally from Australia I started my Engineering career in the US at Apple, Cupertino. Worked at multiple companies as sofware architect, product manager, people manager and project manager for over 30 years
-```
+:::
 
-The world has become data-driven. Domain scientists and industry increasingly rely on data analysis to drive innovation and discovery; this reliance on data is not only restricted to science or business, but also is crucial to those in government, public policy, and those wanting to be informed citizens. As the size of data continues to grow, everyone will need to use powerful tools to work with that data.
++++ { "part": "abstract" }
+The world has become data-driven. Domain scientists and industry increasingly rely on data analysis to drive innovation and discovery; this reliance on data is not only restricted to science or business, but also is crucial to those in government, public policy, and those wanting to be informed citizens. As the size of data continues to grow, everyone will need to use powerful tools to work with that data. In this course, students will learn:
 
-In this course, students will learn:
-
-1. **How to work with different types of data** such as text, tabular data, images, and geospatial data.
-1. **Data science tools and libraries** such as [Jupyter Notebook](https://jupyter.org/), [pandas](https://pandas.pydata.org/), [seaborn](https://seaborn.pydata.org/), and [scikit-learn](https://scikit-learn.org/).
-1. **Software engineering skills** such as data structures, object composition, and runtime analysis.
-1. **Information representation skills** such as visualization principles, data settings, and data ethics.
+1. **Data types** such as text, tabular data, images, and geospatial data.
+1. **Data tools** such as [Jupyter Notebook](https://jupyter.org/), [pandas](https://pandas.pydata.org/), [seaborn](https://seaborn.pydata.org/), and [scikit-learn](https://scikit-learn.org/).
+1. **Software engineering skills** such as object composition and runtime analysis.
+1. **Information skills** such as visualization principles, data settings, and ethics.
++++
 
 This course is designed to support students who have:
-: an understanding of control structures, file I/O, and data structures in Java. Your first weeks will focus on learning these concepts in Python.
+
+- an understanding of control structures, file I/O, and data structures in Java. Your first weeks will focus on learning these concepts in Python.
 
 ## Why should we learn?
 
@@ -25,17 +29,15 @@ The education you receive in this course can help prepare you for programming jo
 
 North Creek High School acknowledges the Coast Salish peoples of this land, the land which touches the shared waters of all tribes and bands within the Duwamish, Puyallup, Suquamish, Tulalip and Muckleshoot nations. Among the traditions of the Coast Salish peoples is a value for the connectedness between all living things and a recognition of the [unique ways that each of us comes to know things](https://youtu.be/O6sS1ZI8dDk).
 
-> Modern education has the idea that we all need to know the same thing. At the end of the lesson, everyone will know the same thing. That's why we have tests, that's why we have quizzes, that's why we have homework: to ensure we all know the same thing. And that's powerful---that's important---within a certain context.
+> Modern education has the idea that we all need to know the same thing. At the end of the lesson, everyone will know the same thing. That's why we have tests, that's why we have quizzes, that's why we have homework: to ensure we all know the same thing. And that's powerful—that's important—within a certain context.
 >
-> But for native culture, the idea that each listener divines or finds their own answer, their own meaning, their own teaching from the story is equally powerful---that each person needs to be able to look at the world and define it for themselves within their culture and then also find a way to live in that world according to the teachings of their people in their culture.
-
-Our course emphasizes the following values.
+> But for native culture, the idea that each listener divines or finds their own answer, their own meaning, their own teaching from the story is equally powerful—that each person needs to be able to look at the world and define it for themselves within their culture and then also find a way to live in that world according to the teachings of their people in their culture.
 
 We are responsible for each others' success
 : Everyone has a right to feel like they belong in this class. We'll need to act with compassion and caring to collaborate with each other. Although we will need more than just unexamined commitments to collaboration, listening, empathy, mindfulness, and caring, the following guidelines offer a starting point for ensuring compassion toward each other [@10.37514/PER-B.2022.1824].
 
   - Listen with intention to understand first and form an opinion only after you fully understand.
-  - Take responsibility for the intended and unintended effects of your words and actions on others.
+  - Take responsibility for intended and unintended effects of your words and actions on others.
   - Mindfully respond to others' ideas by acknowledging the unique value of each contribution.
 
 : You should expect and demand to be treated by your classmates and teachers with respect. If any incident occurs that challenges this commitment to a supportive, diverse, inclusive, and equitable environment, please let the teacher know so the issue can be addressed.
@@ -47,7 +49,7 @@ We recognize everyone has unique circumstances
 We believe everyone wants to learn
 : Education is about shaping your identity as much as it is about learning things. In school, the consequences of making mistakes are relatively small. But the habits you form now---repeated over days, weeks, months, or years---determine who you will be in the future. Now is the best time to practice honest habits.
 : We ask that you do not claim to be responsible for work that is not yours. When you receive substantial help from someone else, include a citation. Don't post your solutions publicly. Most importantly, don't deprive yourself or others of the learning opportunities that we've created in this course.
-: Academic honesty reflects the trust (or the lack thereof) between students and teachers. We do our best to design the course in ways that ensure trust, but we know our systems are not perfect. If you submit work in violation of these policies but bring it to the attention of the instructor within 72 hours, you may resubmit your own work. Rather than blame students, we want to fix or replace broken systems that compel students to lose trust.
+: Academic honesty reflects the trust (or the lack thereof) between students and teachers. We do our best to design the course in ways that ensure trust, but we know our systems are not perfect.
 
 ## How does learning occur?
 
@@ -72,9 +74,9 @@ Only lab computers may be used in-class at student discretion but with the agree
 All work is designed to be completed with what has been taught in class. Keep your submitted work within the scope of what has been taught. Work that is found to be out of scope with what we have taught will be penalized. Generative AI or other external resources may be used only for clarifying concepts, supporting debugging, or explaining problems at a high level. If you are consulting generative AI or external resources in permitted ways, include citations for what you used and how you used it. Writeups should all be your own words and ideas; you will not be penalized for grammar or mechanics as long as we understand what you are saying and your arguments are reasonable. Regardless of how much help you receive from others, in order to pass this class, you'll need to be deeply familiar with data programming. Do not deprive yourself or others of learning opportunities in this course.
 
 Encouraged
-: Discussing examples shown in class. These examples are part of the course's learning materials.
-: Working with a TA to improve your understanding of a task and resolve a particular problem.
-: Communicating with other students without sharing code or exact details to reproduce a solution.
+: Discussing examples shown in class. These examples are learning materials.
+: Working with a TA to work on a task and resolve a particular problem.
+: Talking with other students without sharing code or details to reproduce code.
 
 Permitted with caution
 : Working alongside one or more other people on an assessment.

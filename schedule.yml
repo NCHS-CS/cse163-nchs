@@ -1,0 +1,228 @@
+- name: Python
+  days:
+    - date: Wed, Sep 24
+      items:
+        - type: Lecture
+          name: Control Structures
+          href: ./control-structures
+        - type: Project
+          name: Dataset Exploration
+    - date: Thu, Sep 25
+      items:
+        - type: Section
+          name: Python Fundamentals
+          href: ./python-fundamentals
+    - date: Fri, Sep 26
+      items:
+        - type: Lecture
+          name: Strings and Lists
+          href: ./strings-and-lists
+    - date: Mon, Sep 29
+      items:
+        - type: Lecture
+          name: File Processing
+          href: ./file-processing
+    - date: Wed, Oct 1
+      items:
+        - type: Lecture
+          name: Data Structures
+          href: ./data-structures
+        - type: Homework
+          name: Processing
+          href: ./processing
+    - date: Thu, Oct 2
+      items:
+        - type: Section
+          name: Data Structures and Files
+          href: ./data-structures-and-files
+    - date: Fri, Oct 3
+      items:
+        - type: Lecture
+          name: CSV Data
+          href: ./csv-data
+        - type: Project
+          name: Proposal
+- name: Pandas
+  days:
+    - date: Mon, Oct 6
+      items:
+        - type: Lecture
+          name: Data Frames
+          href: ./data-frames
+    - date: Wed, Oct 8
+      items:
+        - type: Lecture
+          name: Groupby and Indexing
+          href: ./groupby-and-indexing
+        - type: Homework
+          name: Pokemon
+          href: ./pokemon
+    - date: Thu, Oct 9
+      items:
+        - type: Section
+          name: Pandas Fundamentals
+          href: ./pandas-fundamentals
+    - date: Fri, Oct 10
+      items:
+        - type: Lecture
+          name: Version Control
+    - date: Mon, Oct 13
+      items:
+        - type: Lecture
+          name: Data Visualization
+          href: ./data-visualization
+    - date: Wed, Oct 15
+      items:
+        - type: Lecture
+          name: Data Settings
+          href: ./data-settings
+        - type: Assessment
+          name: Education
+          href: ./education
+    - date: Thu, Oct 16
+      items:
+        - type: Section
+          name: Information Representation
+          href: ./information-representation
+    - date: Fri, Oct 17
+      items:
+        - type: Lecture
+          name: Objects
+          href: ./objects
+        - type: Project
+          name: Exploratory Data Analysis
+- name: Software Engineering
+  days:
+    - date: Mon, Oct 20
+      items:
+        - type: Lecture
+          name: Objects (continued)
+          href: ./objects
+    - date: Wed, Oct 22
+      items:
+        - type: Lecture
+          name: Objects (conclusion)
+          href: ./objects
+        - type: Homework
+          name: Search
+          href: ./search
+    - date: Thu, Oct 23
+      items:
+        - type: Section
+          name: Object-Oriented Programming
+          href: ./object-oriented-programming
+    - date: Fri, Oct 24
+      items:
+        - type: Lecture
+          name: Asymptotic Analysis
+          href: ./asymptotic-analysis
+    - date: Mon, Oct 27
+      items:
+        - type: Lecture
+          name: Geospatial Data Frames
+          href: ./geospatial-data-frames
+        - type: Interview
+          name: Education
+    - date: Wed, Oct 29
+      items:
+        - type: Lecture
+          name: Dissolve, Intersect, and Join
+          href: ./dissolve-intersect-and-join
+        - type: Assessment
+          name: Mapping
+          href: ./mapping
+    - date: Thu, Oct 30
+      items:
+        - type: Section
+          name: Geospatial Data
+          href: ./geospatial-data
+    - date: Fri, Oct 31
+      items:
+        - type: Lecture
+          name: Learning Algorithms
+          href: ./learning-algorithms
+        - type: Project
+          name: Notebook
+- name: Applications
+  days:
+    - date: Mon, Nov 3
+      items:
+        - type: Lecture
+          name: Model Evaluation
+          href: ./model-evaluation
+        - type: Interview
+          name: Exploratory Data Analysis
+    - date: Wed, Nov 5
+      items:
+        - type: Lecture
+          name: Model Evaluation (continued)
+          href: ./model-evaluation
+    - date: Thu, Nov 6
+      items:
+        - type: Section
+          name: Machine Learning
+          href: ./machine-learning
+    - date: Fri, Nov 7
+      items:
+        - type: Lecture
+          name: NumPy
+          href: ./numpy
+    - date: Mon, Nov 10
+      items:
+        - type: Lecture
+          name: Convolutions
+          href: ./convolutions
+        - type: Interview
+          name: Mapping
+    - date: Wed, Nov 12
+      items:
+        - type: Lecture
+          name: Neural Networks
+          href: ./neural-networks
+    - date: Thu, Nov 13
+      items:
+        - type: Section
+          name: Project Check-in
+    - date: Fri, Nov 14
+      items:
+        - type: Lecture
+          name: Neural Networks (continued)
+          href: ./neural-networks
+        - type: Project
+          name: Peer Review
+- name: Project
+  days:
+    - date: Mon, Nov 17
+      items:
+        - type: Lecture
+          name: Language Models
+          href: ./language-models
+    - date: Wed, Nov 19
+      items:
+        - type: Lecture
+          name: Large Language Models
+          href: ./large-language-models
+    - date: Thu, Nov 20
+      items:
+        - type: Section
+          name: Project Panel Practice
+    - date: Fri, Nov 21
+      items:
+        - type: Lecture
+          name: Data Communication
+    - date: Mon, Dec 1
+      items:
+        - type: Lecture
+          name: Project Panels
+    - date: Wed, Dec 3
+      items:
+        - type: Lecture
+          name: Project Panels
+    - date: Thu, Dec 4
+      items:
+        - type: Section
+          name: TBA
+    - date: Fri, Dec 5
+      items:
+        - type: Lecture
+          name: Project Panels
