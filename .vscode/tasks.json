@@ -11,10 +11,10 @@
     {
       "label": "MyST: Build",
       "type": "shell",
-      "command": "npx myst build",
+      "command": "npx myst build --html",
       "options": { "cwd": "${workspaceFolder}" },
       "problemMatcher": [],
-      "dependsOn": ["MyST: Clean"]
+//      "dependsOn": ["MyST: Clean"]
     },
     {
       "label": "MyST: Start Dev Server",

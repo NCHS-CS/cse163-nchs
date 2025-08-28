@@ -5,7 +5,7 @@
       "name": "MyST: Build & Start Server",
       "type": "node-terminal",
       "request": "launch",
-      "command": "npx myst start --port 3000",
+      "command": "python -m http.server -d _build/html 8000",
       "cwd": "${workspaceFolder}",
       "preLaunchTask": "MyST: Build"
     },
