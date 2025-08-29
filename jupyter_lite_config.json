@@ -1,0 +1,10 @@
+{
+  "LiteBuildConfig": {
+    "extra_ignore_contents": [
+      "/\\.vscode",
+      "/\\.git",
+      "/\\.github",
+      "/\\.ipynb_checkpoints"
+    ]
+  }
+}
