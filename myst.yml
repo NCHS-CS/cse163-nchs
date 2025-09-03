@@ -80,10 +80,8 @@ site:
     logo_text: Intermediate Data Programming
     style: style.css
   nav:
-    - title: Staff
-      url: /staff
     - title: Style Guide
-      url: /style-guide
+      url: ./style-guide
   actions:
     - title: Jupyter Lite
       url: https://nchs-cs.github.io/lite/lab/
