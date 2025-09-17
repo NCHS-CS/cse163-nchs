@@ -28,7 +28,8 @@ project:
       hidden: true
     - file: style-guide.md
       hidden: true
-
+    - title: Style Guide
+      url: /style-guide
     - title: Lectures
       children:
         - file: lectures/control-structures.ipynb
