@@ -188,8 +188,6 @@
         - type: Lecture
           name: Neural Networks (continued)
           href: ./neural-networks
-        - type: Project
-          name: Peer Review
 - name: Project
   days:
     - date: Mon, Nov 17
@@ -205,7 +203,7 @@
     - date: Thu, Nov 20
       items:
         - type: Section
-          name: Project Panel Practice
+          name: Project Peer Review
     - date: Fri, Nov 21
       items:
         - type: Lecture
