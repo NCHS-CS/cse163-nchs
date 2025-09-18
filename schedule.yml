@@ -71,6 +71,8 @@
         - type: Lecture
           name: Data Visualization
           href: ./data-visualization
+        - type: Interview
+          name: Processing (Optional)
     - date: Wed, Oct 15
       items:
         - type: Lecture
@@ -150,8 +152,6 @@
         - type: Lecture
           name: Model Evaluation
           href: ./model-evaluation
-        - type: Interview
-          name: Exploratory Data Analysis
     - date: Wed, Nov 5
       items:
         - type: Lecture
@@ -214,6 +214,8 @@
       items:
         - type: Lecture
           name: Project Panels
+        - type: Interview
+          name: Project Notebook
     - date: Wed, Dec 3
       items:
         - type: Lecture
