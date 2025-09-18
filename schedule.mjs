@@ -26,7 +26,6 @@ const classes = {
   section: { background: '#7A77B4', borderRadius: 8, color: 'white', padding: 5 },
   interview: { background: '#B83BC0', borderRadius: 8, color: 'white', padding: 5 },
   homework: { background: '#B83BC0', borderRadius: 8, color: 'white', padding: 5 },
-  assessment: { background: '#B83BC0', borderRadius: 8, color: 'white', padding: 5 },
   project: { background: '#D43B21', borderRadius: 8, color: 'white', padding: 5 },
 }
 

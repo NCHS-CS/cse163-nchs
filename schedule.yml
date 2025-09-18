@@ -78,7 +78,7 @@
         - type: Lecture
           name: Data Settings
           href: ./data-settings
-        - type: Assessment
+        - type: Homework
           name: Education
           href: ./education
     - date: Thu, Oct 16
@@ -130,7 +130,7 @@
         - type: Lecture
           name: Dissolve, Intersect, and Join
           href: ./dissolve-intersect-and-join
-        - type: Assessment
+        - type: Homework
           name: Mapping
           href: ./mapping
     - date: Thu, Oct 30
