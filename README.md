@@ -69,11 +69,11 @@ During quiz section, practice applying concepts or complete an interview.
 : On interview days, complete a one-on-one in-person code interview with your TA.
 : If you can't make an interview, make-ups will be during our final exam slot.
 
-Show what you learned by completing the individual homeworks/assessments and a team project.
+Show what you learned by completing the individual homeworks and an individual project.
 : In Canvas, submit your completed Jupyter Notebook and wait for a TA review.
 : After you get a TA review, reply to their questions by making a new submission.
 
-**Code interviews** are a key standardized assessment in this course. Rather than treat your submitted program code as the final artifact for evaluation, it is instead a starting point for a conversation that demonstrates your programming fluencies such as code writing, code reading, code debugging, and code communication skills. Communicating your ideas and explaining your decision-making is important in this course. But we know that live discussions during class may not be accessible for everyone and we would be happy to work with you to design accommodations that would allow you to communicate your programming fluencies in an accessible format for you.
+**Interviews** are a key assessment in this course. Rather than treat your submitted program code as the final artifact for evaluation, it is instead a starting point for a conversation that demonstrates your programming fluencies such as code writing, code reading, code debugging, and code communication skills. Communicating your ideas and explaining your decision-making is important in this course. But we know that live discussions during class may not be accessible for everyone and we would be happy to work with you to design accommodations that would allow you to communicate your programming fluencies in an accessible format for you.
 
 Expect to spend 4 hours in class and 8 hours outside of class working on this course. Some weeks may require more or less time than other weeks. If you find the workload is significantly exceeding this expectation, talk to your TA.
 
@@ -83,10 +83,25 @@ Encouraged
 : Talking with other students without sharing code or details to reproduce code.
 
 Permitted with caution
-: Working alongside one or more other people on an assessment.
+: Working alongside one or more other people on a homework or project.
 : Sharing or generating small snippets of code not specific to any assignment part.
 
 Prohibited
 : Obtaining solutions to any assignment part in any form for any reason.
 : Giving, receiving, obtaining, or generating a walkthrough to an assignment.
 : Posting solutions to an assignment in a public place even after the course is over.
+
+## How is this course graded?
+
+Final grades are determined through a three-step process designed to measure your core knowledge, reward your hard work, and encourage consistent participation.
+
+Interviews
+: This is the most significant part of your grade. There are three interviews that will be averaged toward your final grade.
+
+Homework
+: Homework scales your interview score. If you complete all your homework perfectly, you keep 100% of your score from the first step. However, if you don't do any of the homework at all, your score from the first step will be cut in half. Performance between 0 and 100 will scale this effect accordingly.
+
+Lightweight Activities
+: Lightweight activities and participation determine how your final grade is rounded. By default, your grade on the 4.0 scale is rounded down to the nearest decimal point (for example, a 3.89 becomes a 3.8). If you complete at least 90% of the lightweight activities, your grade will be rounded normally instead (a 3.85 becomes a 3.9).
+
+All homework can be revised or resubmitted so that grading in this course rewards learning with feedback loops where you try something, get feedback, and then try again. Grades are based on what you eventually learn through this process.
