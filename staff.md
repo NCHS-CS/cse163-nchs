@@ -2,6 +2,7 @@
 
 ```{card} ![Headshot of Kevin Lin](images/kevin-lin.webp)
 :header: **Kevin Lin** (he/him)
+:footer: Mon 11:30 AM – 1:20 PM in ECE 045
 :url: https://kevinl.info/
 
 If I'm not working on this class, you can probably find me looking around for travel and restaurant deals, experiencing the latest indie movies at SIFF cinemas, introducing guests to our underwater neighbors at the Seattle Aquarium, or designing new methods to empower students through education.
@@ -11,6 +12,7 @@ If I'm not working on this class, you can probably find me looking around for tr
 
 ```{card} ![Headshot of Arona Cho](images/arona-cho.webp)
 :header: **Arona Cho** (she/her)
+:footer: Thu 4:30 – 6:20 PM in DEN 256
 :url: https://www.linkedin.com/in/aronacho/
 
 Hi there! I'm Arona, a senior majoring in Informatics and minoring in data science. I love getting outdoors, exploring local shops, and having movie nights with friends. I'm always down to chat, so feel free to send me an email or visit me during office hours!
@@ -20,6 +22,7 @@ Hi there! I'm Arona, a senior majoring in Informatics and minoring in data scien
 
 ```{card} ![Headshot of Alexis Destefano](images/alexis-destefano.webp)
 :header: **Alexis Destefano** (she/her)
+:footer: Tue 10:30 AM – 12:20 PM in DEN 210
 :url: https://www.linkedin.com/in/alexis-destefano-4ab651297/
 
 Hey, besties! I'm Alexis, and I'm a junior majoring in statistics! Outside of class, I love going to the gym, reading and listening to music:) Not to stereotype myself, but I'm vegetarian and feel most at home with my hair dyed purple--safe to say I ADORE Seattle's culture! This is my first quarter as a TA for CSE 163, and I'm looking forward to a wonderful autumn with you all!
@@ -27,6 +30,7 @@ Hey, besties! I'm Alexis, and I'm a junior majoring in statistics! Outside of cl
 
 ```{card} ![Headshot of Laura Pong](images/laura-pong.webp)
 :header: **Laura Pong** (she/her)
+:footer: Tue 12:30 – 2:20 PM in DEN 256
 
 Hi all! I'm Laura, a senior majoring in Atmospheric Science, and I am very excited to be a returning TA. Outside of school I love to bake bread, walk around Green Lake, and knit (especially socks!). I'm so excited to meet you all, and feel free to come up and chat if you have any questions on the class!
 ```
@@ -35,6 +39,7 @@ Hi all! I'm Laura, a senior majoring in Atmospheric Science, and I am very excit
 
 ```{card} ![Headshot of Thrisha Ramesh](images/thrisha-ramesh.webp)
 :header: **Thrisha Ramesh** (she/her)
+:footer: Tue 12:30 – 2:20 PM in DEN 256 and Thu 12:30 – 2:20 PM in DEM 124
 :url: https://www.linkedin.com/in/thrisha-ramesh-2060521b2
 
 Hi! My name is Thrisha and I am a masters student studying CS at the Allen School. I've been a TA for CSE 163 since my sophomore year, and I'm really excited to be returning as a grad TA after having studied abroad at ETH Zurich in Switzerland for the past year! Academically, I'm really passionate about HCI research and CSE education and outside of school, I'm interested in pottery, hiking, and traveling. I'm looking forward to working with all of you this quarter!
@@ -42,6 +47,7 @@ Hi! My name is Thrisha and I am a masters student studying CS at the Allen Schoo
 
 ```{card} ![Headshot of Anaya Pandit](images/anaya-pandit.webp)
 :header: **Anaya Pandit**
+:footer: Mon 11:30 AM – 1:20 PM in ECE 045 and Wed 11:30 AM – 1:20 PM in ECE 025
 :url: https://www.linkedin.com/in/anaya-pandit/
 
 Hi! I'm Anaya, and I'm currently doing the BS/MS. This is my first quarter as a 163 TA and I'm eager to learn with you! Outside work I love nature walks, sci-fi TV shows, salsa, novice wind surfing, and hanging out with friends.
@@ -51,6 +57,7 @@ Hi! I'm Anaya, and I'm currently doing the BS/MS. This is my first quarter as a 
 
 ```{card} ![Headshot of Arpan Kapoor](images/arpan-kapoor.webp)
 :header: **Arpan Kapoor** (he/him)
+:footer: Thu 4:30 – 6:20 PM in DEN 256
 :url: https://www.linkedin.com/in/arpan-kapoor-145167224/
 
 Hi, my name is Arpan (arr-pin)! This will be my 4th quarter TA'ing this class. Outside of school, I enjoy watching movies, playing games, and hiking. My favorite food is poke with my go to spot being Ono out in Edmonds! I'd love to get to know you all more so don't hesitate to swing by during office hours and best of luck this quarter!
@@ -58,6 +65,7 @@ Hi, my name is Arpan (arr-pin)! This will be my 4th quarter TA'ing this class. O
 
 ```{card} ![Headshot of Thrisha Ramesh](images/thrisha-ramesh.webp)
 :header: **Thrisha Ramesh** (she/her)
+:footer: Tue 12:30 – 2:20 PM in DEN 256 and Thu 12:30 – 2:20 PM in DEM 124
 :url: https://www.linkedin.com/in/thrisha-ramesh-2060521b2
 
 Hi! My name is Thrisha and I am a masters student studying CS at the Allen School. I've been a TA for CSE 163 since my sophomore year, and I'm really excited to be returning as a grad TA after having studied abroad at ETH Zurich in Switzerland for the past year! Academically, I'm really passionate about HCI research and CSE education and outside of school, I'm interested in pottery, hiking, and traveling. I'm looking forward to working with all of you this quarter!
@@ -67,6 +75,7 @@ Hi! My name is Thrisha and I am a masters student studying CS at the Allen Schoo
 
 ```{card} ![Headshot of Alyssa Adair](images/alyssa-adair.webp)
 :header: **Alyssa Adair** (she/her)
+:footer: Wed 4:30 – 6:20 PM in ECE 045
 :url: www.linkedin.com/in/alyssa-adair-aa04222b5
 
 Hi! I am a fourth-year Environmental Studies major with a double minor in Data Science and Business Administration. I'm from Los Angeles, and in my free time, I love reading, going to the gym, and trying new coffee shops. This will be my fifth quarter as a TA for this course, and I'm looking forward to working with you all this quarter!
@@ -74,6 +83,7 @@ Hi! I am a fourth-year Environmental Studies major with a double minor in Data S
 
 ```{card} ![Headshot of Arpan Kapoor](images/arpan-kapoor.webp)
 :header: **Arpan Kapoor** (he/him)
+:footer: Thu 4:30 – 6:20 PM in DEN 256
 :url: https://www.linkedin.com/in/arpan-kapoor-145167224/
 
 Hi, my name is Arpan (arr-pin)! This will be my 4th quarter TA'ing this class. Outside of school, I enjoy watching movies, playing games, and hiking. My favorite food is poke with my go to spot being Ono out in Edmonds! I'd love to get to know you all more so don't hesitate to swing by during office hours and best of luck this quarter!
@@ -83,6 +93,7 @@ Hi, my name is Arpan (arr-pin)! This will be my 4th quarter TA'ing this class. O
 
 ```{card} ![Headshot of Asmi Sathaye](images/asmi-sathaye.webp)
 :header: **Asmi Sathaye** (she/her)
+:footer: Wed 4:30 – 6:20 PM in ECE 045
 :url: https://www.linkedin.com/in/asmi-sathaye-269b05335/
 
 Hi all! I'm Asmi, and I'm a senior doing a double degree in Informatics and Political Economy. A few fun facts about me outside of computing: I was born and raised in India, I have a dog, and I like collecting perfumes. This will be my fifth quarter as a CSE 163 TA, and I'm super excited to work with you all!
@@ -90,6 +101,7 @@ Hi all! I'm Asmi, and I'm a senior doing a double degree in Informatics and Poli
 
 ```{card} ![Headshot of Sheamin Kim](images/sheamin-kim.webp)
 :header: **Sheamin Kim** (she/her/hers)
+:footer: Wed 11:30 AM – 1:20 PM in ECE 025
 :url: www.linkedin.com/in/sheamink
 
 Hey! I'm Sheamin and I am a fourth-year INFO major (focus in product management and biomedical and health informatics) from Washington! This is my 9th quarter TAing. Outside of school, I like to crochet, row, and cook. See you in office hours!
@@ -99,6 +111,7 @@ Hey! I'm Sheamin and I am a fourth-year INFO major (focus in product management 
 
 ```{card} ![Headshot of Anaya Pandit](images/anaya-pandit.webp)
 :header: **Anaya Pandit**
+:footer: Mon 11:30 AM – 1:20 PM in ECE 045 and Wed 11:30 AM – 1:20 PM in ECE 025
 :url: https://www.linkedin.com/in/anaya-pandit/
 
 Hi! I'm Anaya, and I'm currently doing the BS/MS. This is my first quarter as a 163 TA and I'm eager to learn with you! Outside work I love nature walks, sci-fi TV shows, salsa, novice wind surfing, and hanging out with friends.
@@ -106,6 +119,7 @@ Hi! I'm Anaya, and I'm currently doing the BS/MS. This is my first quarter as a 
 
 ```{card} ![Headshot of Sonoma Miller](images/sonoma-miller.webp)
 :header: **Sonoma Miller** (she/her)
+:footer: Tue 10:30 AM – 12:20 PM in DEN 210
 :url: https://www.linkedin.com/in/sonoma-miller
 
 Hi all! I'm a senior in Informatics and Data Science, and I'm particularly fond of data visualization. I grew up in SoCal but consider Seattle my home. My favorite artists right now are LCD Soundsystem, Aphex Twin, and Johnny Cash; when I'm not at work, I enjoy gardening, backpacking, and cycling.
