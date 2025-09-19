@@ -3,6 +3,7 @@ stages:
   - deploy
 
 variables:
+  GIT_SUBMODULE_STRATEGY: recursive
   LC_ALL: en_US.UTF-8
   course: cse163
   quarter: 25au
