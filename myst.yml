@@ -67,11 +67,9 @@ project:
       children:
         - file: homework/processing.ipynb
         - file: homework/pokemon.ipynb
+        - file: homework/education.ipynb
         - file: homework/search.ipynb
-    - title: Assessments
-      children:
-        - file: assessments/education.ipynb
-        - file: assessments/mapping.ipynb
+        - file: homework/mapping.ipynb
   plugins:
     - schedule.mjs
 site:
