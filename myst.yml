@@ -24,12 +24,7 @@ project:
   github: NCHS-CS/cse163-nchs
   toc:
     - file: README.md
-    - file: staff.md
-      hidden: true
     - file: style-guide.md
-      hidden: true
-    - title: Style Guide
-      url: /style-guide
     - title: Lectures
       children:
         - file: lectures/control-structures.ipynb
@@ -80,9 +75,6 @@ site:
   options:
     logo_text: Intermediate Data Programming
     style: style.css
-  nav:
-    - title: Style Guide
-      url: ./style-guide
   actions:
     - title: Jupyter Lite
       url: https://nchs-cs.github.io/lite/lab/
