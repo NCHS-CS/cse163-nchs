@@ -26,9 +26,7 @@ project:
   toc:
     - file: README.md
     - file: staff.md
-      hidden: true
     - file: style-guide.md
-      hidden: true
     - title: Lectures
       children:
         - file: lectures/control-structures.ipynb
@@ -78,10 +76,6 @@ site:
     logo_text: CSE 163 Autumn 2025
     style: style.css
   nav:
-    - title: Staff
-      url: /staff
-    - title: Style Guide
-      url: /style-guide
   actions:
     - title: JupyterHub
       url: http://jupyter.rttl.uw.edu/2025-autumn-cse-163-a/
