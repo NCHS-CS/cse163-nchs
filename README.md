@@ -108,4 +108,4 @@ Lightweight Activities
 
 Final grades are calibrated such that completing all coursework except for the project will result in at least a 3.0 final grade.
 
-All coursework except for the final exam have mechanisms for demonstrating improvement. Learning in this course involves feedback loops where you try something, get feedback, and then try again. Grades are based on what you eventually learn through this process.
+All coursework except for the final exam have mechanisms for demonstrating improvement. Learning in this course involves feedback loops where you try something, get feedback, and then try again. Grades are based on what you eventually learn through this process. Each homework assignment has a single resubmission period for students to improve their work.
