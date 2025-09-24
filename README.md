@@ -106,4 +106,6 @@ Homework
 Lightweight Activities
 : Lightweight activities and participation determine how your final grade is rounded. By default, your grade on the 4.0 scale is rounded down to the nearest decimal point (for example, a 3.89 becomes a 3.8). If you complete at least 90% of the lightweight activities, your grade will be rounded normally instead (a 3.85 becomes a 3.9).
 
+Final grades are calibrated such that completing all coursework except for the project will result in at least a 3.0 final grade.
+
 All coursework except for the final exam have mechanisms for demonstrating improvement. Learning in this course involves feedback loops where you try something, get feedback, and then try again. Grades are based on what you eventually learn through this process.
