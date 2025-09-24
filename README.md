@@ -60,18 +60,16 @@ In a traditional classroom, you attend class while a teacher lectures until time
 
 Today, we know that there are more effective ways to learn science, engineering, and mathematics [@10.1073/pnas.1319030111]. Learning skills like software engineering and algorithm analysis requires **deliberate practice**: a learning cycle that starts with sustained motivation, then presents tasks that build on prior knowledge, and concludes with immediate, personalized feedback. Each module in the course will involve several different activities that are designed so that we can make the most of our class time together.
 
-During lecture, participate in the deliberate practice on programming concepts.
-: In PollEverywhere, **correctly answer all questions** during lecture.
-: On Wednesdays, complete the exit ticket in Canvas to prepare for quiz section.
+In groups during class and quiz section, collaborate on the in-class guided practice.
+: In PollEverywhere, **correctly answer all questions** to engage your learning during lecture.
+: In Canvas, **correctly answer all questions** to engage your learning during section.
 
-During quiz section, practice applying concepts or complete an interview.
-: Quiz sections will extend the exit ticket and prepare you for code interviews.
-: On interview days, complete a one-on-one in-person code interview with your TA.
-: If you can't make an interview, make-ups will be during our final exam slot.
+On your own after class, practice applying what you learned in the homework and project.
+: In Gradescope, submit your completed programming **Homework** assignment for the week.
+: In Gradescope, submit your work for each phase of the **Project**.
 
-Show what you learned by completing the individual homeworks and an individual project.
-: In Canvas, submit your completed Jupyter Notebook and wait for a TA review.
-: After you get a TA review, reply to their questions by making a new submission.
+During certain weeks, show what you learned through a one-on-one interview with a TA.
+: Prepare for interviews by engaging in practice and review materials throughout the quarter.
 
 **Interviews** are a key assessment in this course. Rather than treat your submitted program code as the final artifact for evaluation, it is instead a starting point for a conversation that demonstrates your programming fluencies such as code writing, code reading, code debugging, and code communication skills. Communicating your ideas and explaining your decision-making is important in this course. But we know that live discussions during class may not be accessible for everyone and we would be happy to work with you to design accommodations that would allow you to communicate your programming fluencies in an accessible format for you.
 
@@ -104,4 +102,4 @@ Homework
 Lightweight Activities
 : Lightweight activities and participation determine how your final grade is rounded. By default, your grade on the 4.0 scale is rounded down to the nearest decimal point (for example, a 3.89 becomes a 3.8). If you complete at least 90% of the lightweight activities, your grade will be rounded normally instead (a 3.85 becomes a 3.9).
 
-All homework can be revised or resubmitted so that grading in this course rewards learning with feedback loops where you try something, get feedback, and then try again. Grades are based on what you eventually learn through this process.
+All coursework except for the final exam have mechanisms for demonstrating improvement. Learning in this course involves feedback loops where you try something, get feedback, and then try again. Grades are based on what you eventually learn through this process.
