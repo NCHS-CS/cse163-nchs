@@ -22,7 +22,7 @@ project:
       email: kevinl@cs.uw.edu
       url: https://kevinl.info
       github: kevinlin1
-  github: cse163/website
+  github: cse163/course
   toc:
     - file: README.md
     - file: staff.md
