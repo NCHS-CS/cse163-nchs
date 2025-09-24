@@ -30,7 +30,7 @@ Hey, besties! I'm Alexis, and I'm a junior majoring in statistics! Outside of cl
 
 ```{card} ![Headshot of Laura Pong](images/laura-pong.webp)
 :header: **Laura Pong** (she/her)
-:footer: Tue 12:30 – 2:20 PM in DEN 256
+:footer: Thu 12:30 – 2:20 PM in DEM 124
 
 Hi all! I'm Laura, a senior majoring in Atmospheric Science, and I am very excited to be a returning TA. Outside of school I love to bake bread, walk around Green Lake, and knit (especially socks!). I'm so excited to meet you all, and feel free to come up and chat if you have any questions on the class!
 ```
