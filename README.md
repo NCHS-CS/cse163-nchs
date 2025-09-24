@@ -62,7 +62,7 @@ Today, we know that there are more effective ways to learn science, engineering,
 
 In groups during class and quiz section, collaborate on the in-class guided practice.
 : In PollEverywhere, **correctly answer all questions** to engage your learning during lecture.
-: In Canvas, **correctly answer all questions** to engage your learning during section.
+: In Gradescope, **correctly answer all questions** to engage your learning during section.
 
 On your own after class, practice applying what you learned in the homework and project.
 : In Gradescope, submit your completed programming **Homework** assignment for the week.
