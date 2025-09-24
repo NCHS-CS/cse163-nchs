@@ -73,7 +73,9 @@ During certain weeks, show what you learned through a one-on-one interview with 
 
 **Interviews** are a key assessment in this course. Rather than treat your submitted program code as the final artifact for evaluation, it is instead a starting point for a conversation that demonstrates your programming fluencies such as code writing, code reading, code debugging, and code communication skills. Communicating your ideas and explaining your decision-making is important in this course. But we know that live discussions during class may not be accessible for everyone and we would be happy to work with you to design accommodations that would allow you to communicate your programming fluencies in an accessible format for you.
 
-Expect to spend 4 hours in class and 8 hours outside of class working on this course. Some weeks may require more or less time than other weeks. If you find the workload is significantly exceeding this expectation, talk to your TA.
+All coursework is designed to be completed with what has been taught in class. Keep your submitted work within the scope of what has been taught. Work that is found to be out-of-scope will receive deductions. Repeated use of out-of-scope content is considered academic misconduct. Help from sources outside the course may be used only for clarifying concepts, supporting debugging, or explaining problems at a high level. Writeups should all be your own words and ideas; you will not be penalized for grammar or mechanics as long as we understand what you are saying and your arguments are reasonable.
+
+In short, you are responsible for making sure that your use of external resources does not violate the course policies, and that all work you submit is within the scope of what has been taught in class.
 
 Encouraged
 : Discussing examples shown in class. These examples are learning materials.
@@ -88,6 +90,8 @@ Prohibited
 : Obtaining solutions to any assignment part in any form for any reason.
 : Giving, receiving, obtaining, or generating a walkthrough to an assignment.
 : Posting solutions to an assignment in a public place even after the course is over.
+
+Expect to spend 4 hours in class and 8 hours outside of class working on this course. Some weeks may require more or less time than other weeks. If you find the workload is significantly exceeding this expectation, talk to your TA.
 
 ## How is this course graded?
 
