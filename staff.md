@@ -39,7 +39,7 @@ Hi all! I'm Laura, a senior majoring in Atmospheric Science, and I am very excit
 
 ```{card} ![Headshot of Thrisha Ramesh](images/thrisha-ramesh.webp)
 :header: **Thrisha Ramesh** (she/her)
-:footer: Tue 12:30 – 2:20 PM in DEN 256 and Thu 12:30 – 2:20 PM in DEM 124
+:footer: Tue 12:30 – 2:20 PM over Zoom and Thu 12:30 – 2:20 PM in DEM 124
 :url: https://www.linkedin.com/in/thrisha-ramesh-2060521b2
 
 Hi! My name is Thrisha and I am a masters student studying CS at the Allen School. I've been a TA for CSE 163 since my sophomore year, and I'm really excited to be returning as a grad TA after having studied abroad at ETH Zurich in Switzerland for the past year! Academically, I'm really passionate about HCI research and CSE education and outside of school, I'm interested in pottery, hiking, and traveling. I'm looking forward to working with all of you this quarter!
@@ -65,7 +65,7 @@ Hi, my name is Arpan (arr-pin)! This will be my 4th quarter TA'ing this class. O
 
 ```{card} ![Headshot of Thrisha Ramesh](images/thrisha-ramesh.webp)
 :header: **Thrisha Ramesh** (she/her)
-:footer: Tue 12:30 – 2:20 PM in DEN 256 and Thu 12:30 – 2:20 PM in DEM 124
+:footer: Tue 12:30 – 2:20 PM over Zoom and Thu 12:30 – 2:20 PM in DEM 124
 :url: https://www.linkedin.com/in/thrisha-ramesh-2060521b2
 
 Hi! My name is Thrisha and I am a masters student studying CS at the Allen School. I've been a TA for CSE 163 since my sophomore year, and I'm really excited to be returning as a grad TA after having studied abroad at ETH Zurich in Switzerland for the past year! Academically, I'm really passionate about HCI research and CSE education and outside of school, I'm interested in pottery, hiking, and traveling. I'm looking forward to working with all of you this quarter!
