@@ -20,6 +20,7 @@ jupyter-book:
     - pip install nodeenv
     - nodeenv -n 22.20.0 node_env
     - source node_env/bin/activate
+    - npm install
     - npx jupyter-book build --html
   artifacts:
     paths:
