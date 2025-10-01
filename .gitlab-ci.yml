@@ -12,15 +12,15 @@ variables:
 jupyter-book:
   stage: build
   tags:
-    - pages
-  image: node:24
+    - courseweb
   variables:
     BASE_URL: /courses/$course/$quarter
-  before_script:
-    - npm install
-    - npm install -g jupyter-book
   script:
-    - jupyter-book build --html
+    - export PATH="/home/gitlab-runner/.local/bin/:$PATH"
+    - pip install nodeenv
+    - nodeenv -n 22.20.0 node_env
+    - source node_env/bin/activate
+    - npx jupyter-book build --html
   artifacts:
     paths:
       - $source_path
