@@ -61,15 +61,15 @@ In a traditional classroom, you attend class while a teacher lectures until time
 Today, we know that there are more effective ways to learn science, engineering, and mathematics [@10.1073/pnas.1319030111]. Learning skills like software engineering and algorithm analysis requires **deliberate practice**: a learning cycle that starts with sustained motivation, then presents tasks that build on prior knowledge, and concludes with immediate, personalized feedback. Each module in the course will involve several different activities that are designed so that we can make the most of our class time together.
 
 In groups during class and quiz section, collaborate on the in-class guided practice.
-: In PollEverywhere, **correctly answer all questions** to engage your learning during lecture.
-: In Gradescope, **correctly answer all questions** to engage your learning during section.
+: In PollEverywhere, **correctly answer all questions** to during lecture.
+: In Gradescope, **correctly answer all questions** to during section.
 
-On your own after class, practice applying what you learned in the homework and project.
-: In Gradescope, submit your completed programming **Homework** assignment for the week.
+On your own after class, apply what you learned in the homework and project.
+: In Gradescope, submit your completed **Homework** assignment for the week.
 : In Gradescope, submit your work for each phase of the **Project**.
 
 During certain weeks, show what you learned through a one-on-one interview with a TA.
-: Prepare for interviews by engaging in practice and review materials throughout the quarter.
+: Prepare for **Interviews** by engaging in practice throughout the quarter.
 
 **Interviews** are a key assessment in this course. Rather than treat your submitted program code as the final artifact for evaluation, it is instead a starting point for a conversation that demonstrates your programming fluencies such as code writing, code reading, code debugging, and code communication skills. Communicating your ideas and explaining your decision-making is important in this course. But we know that live discussions during class may not be accessible for everyone and we would be happy to work with you to design accommodations that would allow you to communicate your programming fluencies in an accessible format for you.
 
