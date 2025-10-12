@@ -9,7 +9,7 @@ variables:
   quarter: 25au
   source_path: _build/html
 
-jupyter-book:
+mystmd:
   stage: build
   tags:
     - courseweb
@@ -21,7 +21,7 @@ jupyter-book:
     - nodeenv -n 22.20.0 node_env
     - source node_env/bin/activate
     - npm install
-    - npx jupyter-book build --html
+    - npx mystmd build --html
   artifacts:
     paths:
       - $source_path
@@ -39,4 +39,4 @@ courseweb:
   only:
     - main
   dependencies:
-    - jupyter-book
+    - mystmd
