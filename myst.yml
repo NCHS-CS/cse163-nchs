@@ -41,14 +41,14 @@ project:
         - file: lectures/spreadsheets.ipynb
         - file: lectures/data-visualization.ipynb
         - file: lectures/data-settings.ipynb
-        - file: lectures/objects.ipynb
-        - file: lectures/asymptotic-analysis.ipynb
+        - file: lectures/learning-algorithms.ipynb
         - file: lectures/geospatial-data-frames.ipynb
         - file: lectures/dissolve-intersect-and-join.ipynb
-        - file: lectures/learning-algorithms.ipynb
         - file: lectures/model-evaluation.ipynb
         - file: lectures/bias-variance-bias-and-bias.ipynb
         - file: lectures/numpy.ipynb
+        - file: lectures/objects.ipynb
+        - file: lectures/efficiency.ipynb
         - file: lectures/convolutions.ipynb
         - file: lectures/neural-networks.ipynb
         - file: lectures/language-models.ipynb
@@ -59,17 +59,17 @@ project:
         - file: sections/data-structures-and-files.ipynb
         - file: sections/pandas-fundamentals.ipynb
         - file: sections/information-representation.ipynb
-        - file: sections/object-oriented-programming.ipynb
         - file: sections/geospatial-data.ipynb
         - file: sections/machine-learning.ipynb
+        - file: sections/object-oriented-programming.ipynb
         - file: sections/accessibility-simulations.ipynb
     - title: Homework
       children:
         - file: homework/processing.ipynb
         - file: homework/pokemon.ipynb
         - file: homework/education.ipynb
-        - file: homework/search.ipynb
         - file: homework/mapping.ipynb
+        - file: homework/search.ipynb
   plugins:
     - schedule.mjs
 site:
