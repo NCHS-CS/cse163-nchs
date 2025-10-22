@@ -69,6 +69,9 @@ project:
         - file: homework/education.ipynb
         - file: homework/mapping.ipynb
         - file: homework/search.ipynb
+    - title: Projects
+      children:
+        - pattern: projects/*.ipynb
   plugins:
     - schedule.mjs
 site:

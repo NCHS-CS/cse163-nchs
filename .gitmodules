@@ -1,3 +1,6 @@
 [submodule "images"]
 	path = images
 	url = ../images/
+[submodule "projects"]
+	path = projects
+	url = ../projects/
