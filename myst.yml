@@ -38,7 +38,6 @@ project:
         - file: lectures/csv-data.ipynb
         - file: lectures/data-frames.ipynb
         - file: lectures/groupby-and-indexing.ipynb
-        - file: lectures/spreadsheets.ipynb
         - file: lectures/data-visualization.ipynb
         - file: lectures/data-settings.ipynb
         - file: lectures/learning-algorithms.ipynb
