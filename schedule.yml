@@ -206,16 +206,14 @@
       items:
         - type: Lecture
           name: Project Panels
-        - type: Interview
-          name: Project Notebook
     - date: Wed, Dec 3
       items:
         - type: Lecture
           name: Project Panels
     - date: Thu, Dec 4
       items:
-        - type: Section
-          name: TA Choice
+        - type: Interview
+          name: Project Notebook (during section)
     - date: Fri, Dec 5
       items:
         - type: Lecture
