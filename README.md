@@ -100,6 +100,7 @@ Interviews
 
 Homework
 : Homework scales your interview score. If you complete all your homework perfectly, you keep 100% of your score from the first step. However, if you don't do any of the homework at all, your score from the first step will be cut in half. Performance between 0 and 100 will scale this effect accordingly.
+: Homework scores will be rounded up. Each score will be rounded up to the next 10% interval. For example, any score greater than 90% on will be rounded up to 100% (a score of exactly 90% remains 90%). Processing will use a wider 20% interval since it is not core to the course.
 
 Lightweight Activities
 : Lightweight activities and participation determine how your final grade is rounded. By default, your grade on the 4.0 scale is rounded down to the nearest decimal point (for example, a 3.89 becomes a 3.8). If you complete at least 90% of the lightweight activities, your grade will be rounded normally instead (a 3.85 becomes a 3.9).
