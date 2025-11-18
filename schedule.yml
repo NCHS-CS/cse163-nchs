@@ -192,8 +192,7 @@
     - date: Wed, Nov 19
       items:
         - type: Lecture
-          name: Large Language Models
-          href: ./large-language-models
+          name: Data Literacy and Communication
     - date: Thu, Nov 20
       items:
         - type: Section
@@ -201,7 +200,7 @@
     - date: Fri, Nov 21
       items:
         - type: Lecture
-          name: Data Communication
+          name: Computing with Humanities
     - date: Mon, Dec 1
       items:
         - type: Lecture
