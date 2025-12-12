@@ -6,5 +6,21 @@
       "/\\.github",
       "/\\.ipynb_checkpoints"
     ]
-  }
+  },
+  "jupyter-lite-schema-version": 0,
+  "serverConfig": {
+    "litePluginSettings": {
+      "@jupyterlite/pyodide-kernel-extension:kernel": {
+        "pipliteUrls": [
+          "https://cdn.jsdelivr.net/pyodide/v0.26.0/full/pyodide.js"
+        ],
+        "pyodidePackages": [
+          "micropip",
+          "pandas",
+          "seaborn",
+          "matplotlib"
+        ]
+      }
+    }
+  }  
 }
