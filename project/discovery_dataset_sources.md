@@ -4,7 +4,7 @@ Report broken links [here](https://github.com/NCHS-CS/nchs-cs.github.io/issues)
 
 The best approach is to start with a problem that interests you, and then look for data. However, if you are creative and critical, you can go the other way around: start with the data and then identify areas of research.    
 
-There are MANY sources of data and you can seek out anything and everything you can get your hands on. Google will be your friend for finding a dataset.Here are some sources for you to explore:  
+There are MANY sources of data and you can seek out anything and everything you can get your hands on. Google will be your friend for finding a dataset. Here are some sources for you to explore:  
 
 ## Sample datasets you may use for this project
 
@@ -24,12 +24,13 @@ There are MANY sources of data and you can seek out anything and everything you 
 
 * A variety of data sets are available from [UW Libraries](http://guides.lib.washington.edu/content.php?pid=135867&sid=1165959)  
  
-:::{attention}
+:::{warning}
 The following are blocked at NCHS, but you may find them useful to browse in your own time.
 * [Reddit Data Sets](https://www.reddit.com/r/datasets/)  
 * [Kaggle Datasets](https://www.kaggle.com) (Thousands of datasets across domains (e.g., health, sports) with example notebooks. Ideal for beginners.)
+:::
 
-## Other datasets you may find usueful
+## Other datasets you may find useful
 
 * [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets) - large variety of maintained data sets  
 

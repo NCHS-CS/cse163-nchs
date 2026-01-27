@@ -22,7 +22,7 @@ To qualify, you must work with **four** or more datasets what require **merging*
 
 To qualify, you must successfully scrape hundreds of rows of data off one or more web page. Or, you must use some public API to collect data from some data service (e.g. Spotify). The resulting data would be saved as a CSV file for later organization and analysis. To Web Scrape, consider using [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/).
 
-See more info on web scraping [here](project/scraping)
+See more info on web scraping [here](../project/scraping.md)
 
 ## Statistical Validation
 
@@ -34,7 +34,7 @@ Many students have attempted this with great failure. This challenge goal requir
 
 * Explore and use a new Machine Learning model: You cannot use the simple `DecisionTree`. Work to adjust the hyperparameters during training to improve the model's accuracy. You must then **PRESENT** your exploration during the Final Presentation.  
 * Explore the predictions made by the model to either:   
-   * provide insight into how the model makes its predictions. You can look at [Machine Learning -> Regression-Distance Study](../../machine-learning/regression-distance) Look at how the Model Graphs provide clear insight into how the model makes predictions.
+   * provide insight into how the model makes its predictions. You can look at [Machine Learning -> Regression-Distance Study (TBD)](../tbd.md). Look at how the Model Graphs provide clear insight into how the model makes predictions.
    * make some predictions about the future or situation not present in the data.  
 * Dive deep into applying machine learning to your dataset to gain insights about the data or use it to make predictions about the future. Be explicit with what your goal is and how you will assess if you meet that goal. One example could be looking at various model types (and different settings of their hyperparameters) to identify which model is “best” (by how you define best). Another could be looking at how to use an “interpretable model” to understand which features are the most informative for how a decision is made. This challenge goal requires going above and beyond the fundamental steps of a Machine Learning pipeline we introduced in class. To achieve this challenge goal, you need to demonstrate exploration of more ideas in machine learning. 
 

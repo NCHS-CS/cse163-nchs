@@ -58,11 +58,11 @@ We will follow the published schedule as close as possible for the duration of t
 
 # Phases
 
-## #1: [Discovery Document and Raw Data](project/discovery)
+## #1: [Discovery Document and Raw Data](../project/discovery.md)
 
 You will deliver your initial proposed project and scope.
 
-## #2: [Data Organization](tbd)
+## #2: [Data Organization (TBD)](../tbd.md)
 
 You will deliver the following:  
 
@@ -72,15 +72,15 @@ You will deliver the following:
 * Perhaps some Unit Tests (Challenge Goal)  
 * Perhaps Web Scraped data or data downloaded via API (Challenge Goal)
 
-## #3: [Final Code & Research Document](tbd)
+## #3: [Final Code & Research Document (TBD)](../tbd.md)
 
 You will deliver your final code in GitHub using the original starting project provided to you in class as well as a polished research document. The document will focus on the plots and the insights they provide.  
 
-## #4: [Final Presentation](tbd)
+## #4: [Final Presentation (TBD)](../tbd.md)
 
 This will be your **story** -- a verbal presentation of your Data Science results colored by your subjective journey through the project. You will introduce your research topic, provide context and goals. In short, show plots and explain the results. You will have a slide deck that is almost exclusively a collection of the plots that tell a story.  
 
-# [Challenge Tasks](project/discovery-challenges)
+# [Challenge Tasks](../project/discovery_challenges.md)
 
 You will implement and deliver these either with the `Data Organization` and/or `Final Code and Report` deliverables.
 

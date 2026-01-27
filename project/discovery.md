@@ -140,4 +140,4 @@ See more info on web scraping [here](../project/scraping.md)
 
 ## Grading
 
-Grading for this document will follow this rubric guide [here](tbd)
+Grading for this document will follow this rubric guide: [TBD](../tbd.md)
