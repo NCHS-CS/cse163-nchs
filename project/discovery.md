@@ -135,9 +135,9 @@ You will extensively document your data to illustrate that you understand it. He
         * **Non-conformity** can destroy your ability to join tables. 
 
 :::{seealso}
-See more info on web scraping [here](../project/scraping.md)
+See more info on web scraping [here](../project/scraping)
 :::
 
 ## Grading
 
-Grading for this document will follow this rubric guide: [TBD](../tbd.md)
+Grading for this document will follow this rubric guide: [TBD](../tbd)
