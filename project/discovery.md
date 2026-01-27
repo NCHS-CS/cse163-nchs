@@ -135,7 +135,7 @@ You will extensively document your data to illustrate that you understand it. He
         * **Non-conformity** can destroy your ability to join tables. 
 
 :::{seealso}
-See more info on web scraping [here](project/scraping)
+See more info on web scraping [here](../project/scraping.md)
 :::
 
 ## Grading

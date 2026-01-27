@@ -23,8 +23,8 @@ There are MANY sources of data and you can seek out anything and everything you 
 * [Data.seattle.gov](https://data.seattle.gov) for Seattle open government data or [data.wa.gov](https://data.wa.gov): Seattle or Washington state data (e.g., transit, schools). Relevant for North Creek students.
 
 * A variety of data sets are available from [UW Libraries](http://guides.lib.washington.edu/content.php?pid=135867&sid=1165959)  
-
-{: .warning }
+ 
+:::{attention}
 The following are blocked at NCHS, but you may find them useful to browse in your own time.
 * [Reddit Data Sets](https://www.reddit.com/r/datasets/)  
 * [Kaggle Datasets](https://www.kaggle.com) (Thousands of datasets across domains (e.g., health, sports) with example notebooks. Ideal for beginners.)
