@@ -9,7 +9,7 @@ You must submit your finished document **as a Markdown (.md) file** to the `disc
 :::
 
 :::{seealso}
-Review the tips and details in the [discovery overview](../project/discovery)
+Review the tips and details in the [discovery overview](/project/discovery)
 :::
 
 > This is the start of the template below:
@@ -64,11 +64,11 @@ You should:
 2. List important columns from each dataset  
 3. Examine challenges with the data  
 
-See the [Dataset Example (TBD)](../tbd) for more details.
+See the [Dataset Example](/project/dataset-example) for more details.
 
 ---
 
-### [Challenge goals](../project/discovery_challenges)
+### [Challenge goals](/project/discovery-challenges)
 
   * Select at least 2 challenge goals that you are planning to meet.  
   * Justify why you think this challenge goal is a good fit for your project.  

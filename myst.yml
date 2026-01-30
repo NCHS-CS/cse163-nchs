@@ -78,7 +78,7 @@ project:
           children:
           - file: project/discovery_template.md
           - file: project/discovery_dataset_sources.md
-          - file: project/discovery_tips.md
+          - file: project/dataset_example.md
           - file: project/discovery_challenges.md
           - file: project/scraping.md
     - title: Extras
@@ -97,3 +97,6 @@ site:
   actions:
     - title: Jupyter Lite
       url: https://nchs-cs.github.io/lite/lab/
+    - title: Report broken links
+      url: https://github.com/NCHS-CS/nchs-cs.github.io/issues
+      class: btn-outline
