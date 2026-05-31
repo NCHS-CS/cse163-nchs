@@ -1,7 +1,5 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
-build:
-  downloadImages: false
 project:
   downloads: []   # removes the default "source file" link everywhere
   title: Intermediate Data Programming
@@ -73,6 +71,12 @@ project:
         - file: classwork/cw-ethics.ipynb
         - file: classwork/ml-feature-importance.ipynb
         - file: classwork/ml-classification/ml-classification.ipynb
+        - title: XGBoost
+          children:
+            - file: classwork/xgboost/01_random_forests.ipynb
+            - file: classwork/xgboost/02_xgboost_introduction.ipynb
+            - file: classwork/xgboost/03_xgboost_tuning.ipynb
+            - file: classwork/xgboost/04_xgboost_case_study.ipynb
     - title: Homework
       children:
         - file: homework/processing.ipynb
