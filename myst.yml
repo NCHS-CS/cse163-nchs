@@ -109,6 +109,57 @@ project:
         - file: visualizations/curve_of_best_fit.md
         - file: visualizations/case_study_dist.md
         - file: visualizations/geospatial.md
+
+    # BEGIN IDP MIGRATION SECTIONS
+    - title: Machine Learning
+      file: idp/machine-learning/index.md
+      children:
+        - title: Feature Importance
+          file: idp/machine-learning/feature-importance.md
+        - title: Assessing Accuracy
+          file: idp/machine-learning/assessing-accuracy.md
+        - title: Classification
+          file: idp/machine-learning/classification.md
+        - title: Regression - Distance Study
+          file: idp/machine-learning/regression-distance.md
+        - title: Classification - Fully Random
+          file: idp/machine-learning/classification-fully-random.md
+        - title: When to Avoid Using Machine Learning
+          file: idp/machine-learning/when-to-avoid.md
+    - title: Visualizations
+      file: idp/visualizations/index.md
+      children:
+        - title: Activity
+          file: idp/visualizations/activity.md
+        - title: Bar Charts
+          file: idp/visualizations/barchart.md
+        - title: Case Study on Distance
+          file: idp/visualizations/case_study_dist.md
+        - title: Curve of Best Fit
+          file: idp/visualizations/curve_of_best_fit.md
+        - title: Geospatial Plots
+          file: idp/visualizations/geospatial.md
+        - title: Line Plots
+          file: idp/visualizations/lineplots.md
+    - title: Other Resources
+      file: idp/resources/README.md
+      children:
+        - title: Arguments
+          file: idp/resources/method_args.md
+        - title: Collections
+          file: idp/resources/collections.md
+        - title: Flake8
+          file: idp/resources/flake8.md
+        - title: Pandas API
+          file: idp/resources/pandas_api.md
+        - title: Pandas DF
+          file: idp/resources/pandas_df.md
+        - title: Writing Comments
+          file: idp/resources/writing_comments.md
+        - title: f-strings
+          file: idp/resources/f-strings.md
+    # END IDP MIGRATION SECTIONS
+
     - title: Extras
       children:
       - file: building.md
