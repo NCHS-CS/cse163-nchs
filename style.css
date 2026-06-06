@@ -40,7 +40,22 @@
   font-weight: 700;
 }
 
+@media (max-width: 900px) {
+  .myst-top-nav-bar .hidden.sm\:block {
+    display: none !important;
+  }
+
+  .myst-top-nav-bar .block.sm\:hidden {
+    display: block !important;
+  }
+}
+
 @media (max-width: 480px) {
+  html,
+  body {
+    overflow-x: clip;
+  }
+
   .myst-top-nav-bar {
     gap: 0.5rem;
     min-width: 0;
