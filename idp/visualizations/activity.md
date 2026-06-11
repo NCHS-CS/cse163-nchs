@@ -1,34 +1,34 @@
 ---
-title: Exploring Advanced Data Visualizations for Research Projects
-short_title: Activity
+title: Activity
 ---
 
-## Objective: 
+# Activity
+
+## Exploring Advanced Data Visualizations for Research Projects
+
+### Objective: 
 
 Create advanced data visualizations that effectively communicate complex data insights, moving beyond basic line or scatter plots.
 
-## Directions:
+### Overview:
 
- - [10 mins] - Explore various visualizations
- - [10 mins] - Join a group of 3 or 4 students
-   - Analyze the data set and research question to identify key insights.
-   - Select an advanced visualization type (do not choose a line or scatter plot) that best represents the data and supports the research question (you may do more than one)
-   - Sketch a draft of the chosen visualization.
-   - Prepare a brief explanation why you chose this view and why the selected visualization is more effective than basic plots.
- - [XX mins] - Review with Teacher
-
-## Visualization Resources
+Explore one of the following resources for five minutes
 
 1. [Data Visualization Catalogue](https://datavizcatalogue.com/)
 2. [Seaborn examples](https://seaborn.pydata.org/examples/)
 3. [How to Choose the Right Data Visualization](https://www.atlassian.com/data/charts/how-to-choose-data-visualization)
 4. [NCHS Data Visualization Gallery](https://www.cdc.gov/nchs/data-visualization/index.htm)
 5. [Data Viz Project](https://datavizproject.com/)
-6. [NCHS-CS website on visualizations](https://nchs-cs.github.io/idp/visualizations/)
+5. [NCHS-CS website on visualizations](https://nchs-cs.github.io/idp/visualizations/)
 
-## Dataset Descriptions
+Now consider that we have two data set examples below. 
 
-Choose one of these data sets (or you can work with your own research project idea).
+1. Join into a group of 3 or 4 people.
+2. Choose one of these data sets (or you can work with your own research project idea).
+     - Analyze the data set and research question to identify key insights.
+     - Select an advanced visualization type (do not choose a line or scatter plot) that best represents the data and supports the research question.
+     - Sketch a draft of the chosen visualization on paper.
+     - Prepare a brief explanation why you chose this view and why the selected visualization is more effective than basic plots.
 
 **Data Set 1 - Global Renewable Energy Consumption**
 
@@ -40,8 +40,9 @@ Choose one of these data sets (or you can work with your own research project id
    - *Research Question:* What are the comparative age distributions across different continents, and how do they relate to regional socio-economic factors?
    - *Data Description:* This data set provides population counts segmented by age groups (e.g., 0-14, 15-24, 25-54, 55-64, 65+) for each continent as of 2020.
 
-```{dropdown} Possible answers (view after completing above activity)
-
+<details>
+<summary><strong>Possible answers (view after completing above activity)</strong></summary>
+<div markdown="1">
 
 ## Data Set 1: Global Renewable Energy Consumption
 
@@ -90,5 +91,4 @@ Choose one of these data sets (or you can work with your own research project id
 
 These visualization techniques can provide deeper insights into this data and move beyond basic plots to more effectively communicate complex relationships and trends.
 
-
-```
+</div></details>

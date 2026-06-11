@@ -3,7 +3,7 @@ title: Intermediate Data Programming
 subtitle: North Creek High School
 ---
 
-Building this website? Look [here](./building)
+Building this website? Read the [course site build instructions](./building).
 
 :::{card} ![Headshot of Jason Rukman](./rukman_jason.png)
 :header: *Jason Rukman*
@@ -88,4 +88,3 @@ Prohibited
 : Obtaining or generating solutions to any part of an assessment in any form for any reason.
 : Giving, receiving, or generating a walkthrough to an assessment from anyone or anything else.
 : Posting solutions to an assessment in a public place even after the course is over.
-
