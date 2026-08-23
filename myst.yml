@@ -36,7 +36,6 @@ project:
         - file: lectures/csv-data.ipynb
         - file: lectures/data-frames.ipynb
         - file: lectures/groupby-and-indexing.ipynb
-        - file: lectures/spreadsheets.ipynb
         - file: lectures/data-visualization.ipynb
         - file: lectures/data-settings.ipynb
         - file: lectures/learning-algorithms.ipynb
@@ -44,7 +43,11 @@ project:
         - file: lectures/dissolve-intersect-and-join.ipynb
         - file: lectures/objects.ipynb
         - file: lectures/efficiency.ipynb
+        - file: lectures/model-evaluation.ipynb
+        - file: lectures/bias-variance-bias-and-bias.ipynb
         - file: lectures/numpy.ipynb
+        - file: lectures/objects.ipynb
+        - file: lectures/efficiency.ipynb
         - file: lectures/convolutions.ipynb
         - file: lectures/neural-networks.ipynb
         - file: lectures/language-models.ipynb

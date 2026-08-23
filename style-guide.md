@@ -315,17 +315,16 @@ The documentation for test functions can be relatively simple. For example, the 
 Every function should have its parameter types and return types annotated. Fields of objects should also their types annotated. Annotations are not required for local variables.
 
 ```python
-def function_example(a: int, b: float) -> str:
-    return "example" + str(int) + str(float)
+def function_example(a: str) -> str:
+    return "example" + a
 
 
 class ClassExample:
-    def __init__(self, param1: int, param2: float) -> None:
-        self.field1: str = str(param1)
-        self.field2: float = param2
+    def __init__(self, param: str) -> None:
+        self.field: str = param
 
     def method(self, param: str) -> int:
-        return len(self.field1 + param)
+        return len(self.field + param)
 ```
 
 If a function doesn't return anything, indicate its return type is `None`. You should annotate every function you write, including test functions.
