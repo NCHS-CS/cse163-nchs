@@ -19,39 +19,6 @@ You may **NOT** reuse work that you may have done for another class or club. For
 
 During this Final Project you will have four dates to deliver each of the items below. This is an overview of the deliverables at the various stages of your Final Project.
 
-## Schedule
-
-We will follow the published schedule as close as possible for the duration of the final project.
-
-:::{table} 2026 Schedule
-:align: center
-
-| Week | Date | What |
-| --- | --- | --- |
-| 6 | Mon, Feb 2 | Project Kickoff |
-| 7 | Mon, Feb 9 | - |
-| 8 | Mon, Feb 16 | _Mid-winter break_ |
-| 9 | Mon, Feb 23 | `2/23` Discovery Doc Due |
-| 10 | Mon, Mar 2 | - |
-| 11 | Mon, Mar 9 | - |
-| 12 | Mon, Mar 16 | `3/16` Data Organization Due |
-| 13 | Mon, Mar 23 | - |
-| 14 | Mon, Mar 30 | - | 
-| 15 | Mon, Apr 6 | _Spring Break_ |
-| 16 | Mon, Apr 13 | - |
-| 17 | Mon, Apr 20 | - |
-| 18 | Mon, Apr 27 | `5/1` Code + Final Report Due |
-| 19 | Mon, May 4 | _AP Exams_ |
-| 20 | Mon, May 11 | _AP Exams_ |
-| 21 | Mon, May 18 | Presentations |
-| 22 | Mon, May 25 | Presentations |
-| 23 | Mon, Jun 1 | Presentations |
-| 23 | Mon, Jun 8 | _Filler_ |
-| 23 | Mon, Jun 15 | _`6/17` Last day of school_ |
-
-
-:::
-
 ## Operations
 
 * You will self organize into groups of two
