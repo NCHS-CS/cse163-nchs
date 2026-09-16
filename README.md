@@ -3,6 +3,8 @@ title: Intermediate Data Programming
 subtitle: North Creek High School
 ---
 
+Welcome Period 4
+
 Building this website? Look [here](./building)
 
 :::{card} ![Headshot of Jason Rukman](./rukman_jason.png)
