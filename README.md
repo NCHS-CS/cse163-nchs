@@ -4,6 +4,7 @@ subtitle: North Creek High School
 ---
 
 Welcome Period 4
+### Welcome Period 7
 
 Building this website? Look [here](./building)
 
