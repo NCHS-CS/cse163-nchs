@@ -112,6 +112,16 @@ project:
         - file: visualizations/curve_of_best_fit.md
         - file: visualizations/case_study_dist.md
         - file: visualizations/geospatial.md
+    - title: Machine Learning
+      file: machine-learning/index.md
+      children:
+        - file: machine-learning/feature-importance.md
+        - file: machine-learning/assessing-accuracy.md
+        - file: machine-learning/classification.md
+        - file: machine-learning/regression-distance.md
+        - file: machine-learning/classification-fully-random.md
+        - file: machine-learning/when-to-avoid.md
+        - file: machine-learning/leveraging-ml.md
     - title: Extras
       children:
       - file: building.md

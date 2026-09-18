@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "idp"
+assignment: "nchs-idp"
+owner:
+  username: "SHTG1itch"
+  id: 146282761
+  accepted_at: "2026-09-10T21:20:42Z"
+source:
+  owner: "NCHS-CS"
+  owner_id: 179778397
+  repo: "cse163-nchs"
+  branch: "main"
