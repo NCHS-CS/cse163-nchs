@@ -1,10 +1,12 @@
 {
   "LiteBuildConfig": {
     "extra_ignore_contents": [
+      "/\\.devcontainer",
       "/\\.vscode",
       "/\\.git",
       "/\\.github",
       "/\\.ipynb_checkpoints"
+
     ]
   },
   "jupyter-lite-schema-version": 0,

@@ -1,3 +1,9 @@
+.article p img, .article p > img, .article p > a img, .prose p img {
+  max-width: 100%;
+  height: auto;
+  max-height: none;
+}
+
 .myst-card-body {
   display: flex;
   gap: 1rem;

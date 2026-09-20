@@ -36,7 +36,6 @@ project:
         - file: lectures/csv-data.ipynb
         - file: lectures/data-frames.ipynb
         - file: lectures/groupby-and-indexing.ipynb
-        - file: lectures/spreadsheets.ipynb
         - file: lectures/data-visualization.ipynb
         - file: lectures/data-settings.ipynb
         - file: lectures/learning-algorithms.ipynb
@@ -44,12 +43,18 @@ project:
         - file: lectures/dissolve-intersect-and-join.ipynb
         - file: lectures/objects.ipynb
         - file: lectures/efficiency.ipynb
+        - file: lectures/model-evaluation.ipynb
+        - file: lectures/bias-variance-bias-and-bias.ipynb
         - file: lectures/numpy.ipynb
+        - file: lectures/objects.ipynb
+        - file: lectures/efficiency.ipynb
         - file: lectures/convolutions.ipynb
         - file: lectures/neural-networks.ipynb
         - file: lectures/language-models.ipynb
         - file: lectures/large-language-models.ipynb
         - file: lectures/fairness.ipynb
+        - file: lectures/distance-study/distance-study.ipynb
+        - file: lectures/distance-regression/distance-regression.ipynb
     - title: Classwork
       children:
         - file: classwork/python-fundamentals.ipynb
@@ -66,6 +71,15 @@ project:
         - file: classwork/accessibility-simulations.ipynb
         - file: classwork/scraping2.ipynb
         - file: classwork/cw-best-fit.ipynb
+        - file: classwork/cw-ethics.ipynb
+        - file: classwork/ml-feature-importance.ipynb
+        - file: classwork/ml-classification/ml-classification.ipynb
+        - title: XGBoost
+          children:
+            - file: classwork/xgboost/01_random_forests.ipynb
+            - file: classwork/xgboost/02_xgboost_introduction.ipynb
+            - file: classwork/xgboost/03_xgboost_tuning.ipynb
+            - file: classwork/xgboost/04_xgboost_case_study.ipynb
     - title: Homework
       children:
         - file: homework/processing.ipynb
@@ -83,10 +97,21 @@ project:
           - file: project/discovery_dataset_sources.md
           - file: project/dataset_example.md
         - file: project/data-organization.md
+        - file: project/final_report.md
+        - file: project/final_presentation.md
         - file: project/discovery_challenges.md
         - file: project/scraping.md
         - file: project/project_examples.md
         - file: project/rubric.md
+    - title: Visualizations
+      file: visualizations/index.md
+      children:
+        - file: visualizations/activity.md
+        - file: visualizations/barchart.md
+        - file: visualizations/lineplots.md
+        - file: visualizations/curve_of_best_fit.md
+        - file: visualizations/case_study_dist.md
+        - file: visualizations/geospatial.md
     - title: Extras
       children:
       - file: building.md

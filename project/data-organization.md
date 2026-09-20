@@ -11,6 +11,7 @@ You will deliver the following:
     * Test (if you are doing the Unit Test Challenge)
 * Sketches of target plots  
 * Some Unit Tests (Challenge Goal only)
+* Document your organized data in `README.md` files.
 
 More often than not, the raw data is not ready for plotting. The data needs to be rearranged and organized into a format that allows for `matplotlib.pyplot` to plot. The data may need to be reduced, filtered, joined, calculated or reorganized. 
 
@@ -96,9 +97,11 @@ You must follow the structure found in the template project. The GitHub project 
 
 Follow the directions in the `./data_organized/README.md` and other related `README.md` files in subfolders.
 
+* `/README.md` : Follow directions in this file - document the overall project. Document your challenge goals completed as part of the data organization phase such as unit-test, web-scraping, multiple-datasets (+”new library” if this was used for data organization).
 * `data_organized` : This will contain data that is small enough for consumption and ready to be plotted. If the raw data from the `discovery_raw_data` data sources is dirty or too big for quick and repeated consumption, you need to reduce, normalize and organize the data first. After you've cleaned and organized it, save the processed data into this folder. However, if the raw data is clean and small enough, and it does not need any preprocesssing, you can copy and store the raw data here (and update your `./discovery_raw_data/README.md` accordingly)
+* `data_organized/README.md` : This should be updated with the directions needed for your teacher to run your preprocessing steps. You will document the generated tables and the main columns of data that you have generated for this preprocessing (similar to your discovery document for your raw data).
 * `./data_organized/test_data` : If you do a lot of data organization, you will want to test your code with test data. Store that test data here. Furthermore, in some uncommon cases you will have plots that will need to be "tested" by plotting fake (or test) data. _Also update the `README.md` file here with directions for running your test file `run_tests.py`.
-* `./data_organized/sketches/README.md`: Submit your plot sketches to `./data_organized/sketches`and update your `README.md` file with a table of links and a description of each sketch and how it will help address a specific research question. 
+* `./data_organized/sketches/README.md`: Submit your plot sketches to `./data_organized/sketches`and update your `README.md` file with a table of links and a description of each sketch and how it will help address a specific research question. Include sketches for the challenge goals for machine learning or interactive plots.
 * The code must run from a new clone from GitHub with an explanation in the `README.md` file explaining the steps to run the code locally.  Your code should be added to `./data_organized/preprocess_data.py` to process your `discovery_raw_data`.
 
 ## Preprocessing Data
