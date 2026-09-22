@@ -34,7 +34,7 @@ The education you receive in this course can help prepare you for programming jo
 
 North Creek High School acknowledges the Coast Salish peoples of this land, the land which touches the shared waters of all tribes and bands within the Duwamish, Puyallup, Suquamish, Tulalip and Muckleshoot nations. Among the traditions of the Coast Salish peoples is a value for the connectedness between all living things and a recognition of the [unique ways that each of us comes to know things](https://youtu.be/O6sS1ZI8dDk).
 
-> Modern education has the idea that we all need to know the same thing. At the end of the lesson, everyone will know the same thing. That's why we have tests, that's why we have quizzes, that's why we have homework: to ensure we all know the same thing. And that's powerful—that's important—within a certain context.
+> Modern education has the idea that we all need to know the same thing. At the end of the lesson, everyone will know the same thing. That's why we have tests, that's why we have quizzes, that's why we have assignments: to ensure we all know the same thing. And that's powerful—that's important—within a certain context.
 >
 > But for native culture, the idea that each listener divines or finds their own answer, their own meaning, their own teaching from the story is equally powerful—that each person needs to be able to look at the world and define it for themselves within their culture and then also find a way to live in that world according to the teachings of their people in their culture.
 
@@ -68,7 +68,7 @@ During lecture, participate in the lecture deliberate practice on programming co
 
 During quiz section, apply what you learned for that lesson.
 
-Show what you learned by completing the individual homeworks/assessments and a team project.
+Show what you learned by completing the individual assignments/assessments and a team project.
 : Most assessments will be submitted to github.
 : Make sure to submit and commit often to GitHub to show your flow of work. One large single commit is a red flag to your teacher that it was created with AI.
 

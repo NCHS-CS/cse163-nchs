@@ -80,13 +80,13 @@ project:
             - file: classwork/xgboost/02_xgboost_introduction.ipynb
             - file: classwork/xgboost/03_xgboost_tuning.ipynb
             - file: classwork/xgboost/04_xgboost_case_study.ipynb
-    - title: Homework
+    - title: Assignments
       children:
-        - file: homework/processing.ipynb
-        - file: homework/pokemon.ipynb
-        - file: homework/education.ipynb
-        - file: homework/mapping.ipynb
-        - file: homework/search.ipynb
+        - file: assignments/processing.ipynb
+        - file: assignments/pokemon.ipynb
+        - file: assignments/education.ipynb
+        - file: assignments/mapping.ipynb
+        - file: assignments/search.ipynb
     - title: Final Project
       file: project/index.md
       children:

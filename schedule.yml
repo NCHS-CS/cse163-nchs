@@ -27,7 +27,7 @@
         - type: Lecture
           name: Data Structures
           href: ./data-structures
-        - type: Homework
+        - type: Assignments
           name: Processing
           href: ./processing
     - date: Thu, Oct 2
@@ -54,7 +54,7 @@
         - type: Lecture
           name: Groupby and Indexing
           href: ./groupby-and-indexing
-        - type: Homework
+        - type: Assignments
           name: Pokemon
           href: ./pokemon
     - date: Thu, Oct 9
@@ -78,7 +78,7 @@
         - type: Lecture
           name: Data Settings
           href: ./data-settings
-        - type: Homework
+        - type: Assignments
           name: Education
           href: ./education
     - date: Thu, Oct 16
@@ -105,7 +105,7 @@
         - type: Lecture
           name: Dissolve, Intersect, and Join
           href: ./dissolve-intersect-and-join
-        - type: Homework
+        - type: Assignments
           name: Mapping
           href: ./mapping
     - date: Thu, Oct 23
@@ -151,7 +151,7 @@
         - type: Lecture
           name: Objects (conclusion)
           href: ./objects
-        - type: Homework
+        - type: Assignments
           name: Search
           href: ./search
     - date: Thu, Nov 6
