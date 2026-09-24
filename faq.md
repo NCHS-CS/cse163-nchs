@@ -12,6 +12,7 @@ title: FAQ
 
 | Problem | Try This |
 | --- | --- |
+| Installing Git - (if your lab computer does not have git installed) | Run this on the terminal: <br> <code>winget install --id Git.Git -e --source winget</code> <br>Note: You will need to restart VS code if it was running before you installed git (or restart the terminal) so windows can find the installed version of git. |
 | Java tests do not appear, or the main class does not load or run. | Run **Clean Java Server Workspace**:<br><br>1. Press <code>CTRL+SHIFT+P</code>.<br>2. Enter <code>clean java server workspace</code>.<br>3. Select **Reload &amp; Delete**.<br>4. Repeat the process if necessary.<br>5. If you are using Codespaces, remove the temporary files by running <code>sudo rm -rf /tmp/\*</code>. |
 | Java FX codespaces loading in recovery mode? | See how to disable the sound drivers from loading here. |
 | Java FX won't run on codespaces: `Error: JavaFX runtime components are missing, and are required to run this application` | Open up and look at the file: *`.vscode/launch.json`* It's likely you have changed or created a different app that is missing the "linux" section that is needed to find the java fx libraries. Copy that section over to your current configuration so it can find the libraries again. You can usually tell if you see a "projectname" section that is not set to an empty string project name. You can safely delete this launch configuration and use the original one I set up for you instead. **"linux": { "vmArgs": "--module-path ...** |
@@ -25,7 +26,7 @@ title: FAQ
 | "Sync" fails / conflict (when trying to submit) | Enter this into the terminal and sync again: <br> `git config set pull.rebase true` |
 | "Commit" looks it's taking forever | Make sure you don't have the "COMMIT_MSG" file up and waiting for you to edit and close. Just close it and put your commit message in above the commit button. |
 | Other random codespace error or message of something weird (aka rebuild codespace) | **Warning this will lose any changes you haven't pushed to your github repo** <br> Enter Ctrl-Shift-P for the command palette, type "Reb…" to get "Codespaces: Rebuild Container", select "Full Rebuild". |
-| Trying to run java main isn't working (e.g. main is not found or perhaps the java run/play button is missing) | Check you have enabled the Microsoft java extension pack and not the oracle one. <br> This is correct: (insert photo here) <br> This doesn't fully support VS code use: (insert photo here) |
+| Trying to run java main isn't working (e.g. main is not found or perhaps the java run/play button is missing) | Check you have enabled the Microsoft java extension pack and not the oracle one. <br> This is correct: <br> <img src="assets/images/faq/java-extension-pack.png" alt="Extension Pack for Java" width="300"> <br> This doesn't fully support VS code use: <br> <img src="assets/images/faq/java.png" alt="Extension Pack for Java" width="300"> |
 
 :::
 
@@ -91,19 +92,21 @@ The easiest way for students to track these separately is to clone their GitHub 
 
 ## Classroom50
 
-You join classroom50 after you have created your github account at the following link:
+Your teacher will provide you with the link for your specific assignments (The only exception here is for the IDP nchs-idp assignment below. You should see the following screen (if you are not yet signed into GitHub).
 
-[Access Link from the Document here for NCHS](https://docs.google.com/document/d/1_pbLhVmvnMzIhO-ja_HQkc8UjtaZ4OkBJi2YwU3Vpf0/edit?pli=1&tab=t.un9fr0b19qkw)
+![Classroom50](assets/images/faq/classroom50.png)
 
-Or the teacher provided schoology link for your specific assignment.
+Once you’ve accepted an assignment you will have your own private repository for this assignment.
 
-### IDP Assignments
+### IDP
 
 For IDP you can use the following assignment for your classwork and assignments:
 
 [Access Link from the Document here for NCHS](https://docs.google.com/document/d/1_pbLhVmvnMzIhO-ja_HQkc8UjtaZ4OkBJi2YwU3Vpf0/edit?pli=1&tab=t.un9fr0b19qkw)
 
+![Accepting assignment on classroom50](assets/images/classroom50.png)
 Once you accept this assignment you can clone the repository to your computer.
+![Cloning Repo](assets/images/clone-repo.png)
 
 You can now work on the jupyter notebooks locally using VS Code (and read the lesson content). See notes on running VS code from Anaconda [here](https://docs.google.com/document/d/1_pbLhVmvnMzIhO-ja_HQkc8UjtaZ4OkBJi2YwU3Vpf0/edit?pli=1&tab=t.un9fr0b19qkw)
 
@@ -124,9 +127,16 @@ git fetch upstream
 git merge upstream/main --allow-unrelated-histories
 ```
 
+Gotchas:
+
+1. The very first time you use git you may get an error for git user.name (go to the FAQ table!)
+2. Using command line git defaults to the editor “vi” and you get stuck..It’s a text editor when you get the merge commit and it’s just looking for your description to be saved. Press “Esc” to make sure you are in editor mode. Enter the text :x and press enter (the vi command to save a file).
+
+
 **Tip**: Subscribe to notifications and changes to the main website so you can decide when to update your local repository.
 
 **Tip**: Go to the upstream repository and select to watch all notifications in the UI.
+![Upstream Repository Photo](assets/images/upstream-repo.png)
 
 :::
 
@@ -138,16 +148,18 @@ git merge upstream/main --allow-unrelated-histories
 
 Computers in class have Anaconda installed. There are a few more steps needed to set it up on your personal account correctly.
 
-Firstly you need to make sure you are able to install from the correct channels. Press the windows key on your keyboard and search "anaconda prompt". Enter the following commands:
+1. Firstly you need to make sure you are able to install from the correct channels. Press the windows key on your keyboard and search "anaconda prompt". Enter the following commands:
 
 ```bash
 conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
 conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/msys2
 ```
 
-1. Start Anaconda (icon is on your desktop)
-2. Import the env_26_27.yml file to a new environment and name it "idp". This will take some time.
-3. Go to main and click to start VS Code (make sure it's not running already), making sure you've selected your idp environment first.
+2. Start Anaconda (icon is on your desktop)
+3. Import the env_26_27.yml file to a new environment and name it "idp". This will take some time.
+    ![Anaconda Env. Import](assets/images/anaconda-env.png)
+4. Go to main and click to start VS Code (make sure it's not running already), making sure you've selected your idp environment first.
+    ![Anaconda Extensions](assets/images/extensions-anaconda.png)
 
 In visual studio, the first time you should clone your repository you will be working with. Here's an example cloning my idp personal repository:
 
