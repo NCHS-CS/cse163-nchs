@@ -83,8 +83,6 @@ project:
             - file: classwork/xgboost/04_xgboost_case_study.ipynb
     - title: Assignments
       children:
-        - file: assignments/processing.ipynb
-        - file: assignments/pokemon.ipynb
         - file: assignments/education.ipynb
         - file: assignments/mapping.ipynb
         - file: assignments/search.ipynb
