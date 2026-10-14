@@ -1,21 +1,46 @@
-jupyterlab
-notebook
+# ==========================================
+# BASE REQUIREMENT (Only item needed for VS Code Notebooks)
+# Targeted Python Version: 3.13.x
+# ==========================================
 ipykernel
-numpy
-pandas
-matplotlib
-descartes
-flake8
-geopandas
-mock
-requests
-scikit-image
-scikit-learn
-scipy
+
+
+# ==========================================
+# CORE DATA SCIENCE & ANALYSIS
+# ==========================================
 seaborn
-graphviz
-line_profiler
-func_timeout
-python-levenshtein
-pylev
+scikit-learn
+scikit-image
+xgboost
+
+
+# ==========================================
+# GEOSPATIAL ANALYSIS & MAPPING
+# ==========================================
+geopandas
 folium
+
+
+# ==========================================
+# WEB SCRAPING & IMAGE PROCESSING
+# ==========================================
+beautifulsoup4
+
+
+# ==========================================
+# MACHINE LEARNING / DEEP LEARNING
+# ==========================================
+tensorflow
+
+
+# ==========================================
+# DEV UTILITIES
+# ==========================================
+ipywidgets
+nbformat
+ipytest
+flake8
+nb-mypy
+line_profiler
+levenshtein
+func_timeout

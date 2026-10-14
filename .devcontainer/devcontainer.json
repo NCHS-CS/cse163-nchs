@@ -1,14 +1,24 @@
 {
-  "name": "Python (pip-only)",
-  "image": "mcr.microsoft.com/devcontainers/python:3.13",
-  "postCreateCommand": "bash .devcontainer/postCreate.sh",
+  "name": "Python Classroom Environment",
+  "image": "mcr.microsoft.com/devcontainers/python:3.13-bookworm",
   "customizations": {
     "vscode": {
       "extensions": [
         "ms-python.python",
         "ms-python.vscode-pylance",
-        "ms-toolsai.jupyter"
-      ]
+        "ms-toolsai.jupyter",
+        "ms-toolsai.vscode-jupyter-cell-tags",
+        "ms-toolsai.jupyter-keymap"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "jupyter.notebookFileRoot": "${workspaceFolder}"
+      }
     }
-  }
+  },
+
+  // Automatically installs libraries when the environment is created
+  "postCreateCommand": "pip install --upgrade pip && pip install -r ./.devcontainer/requirements.txt",
+
+  "remoteUser": "vscode"
 }
