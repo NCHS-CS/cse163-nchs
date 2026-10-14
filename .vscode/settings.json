@@ -2,6 +2,8 @@
   // Automatically activates .venv in the terminal when opened locally on Windows/Mac
   "python.terminal.activateEnvironment": true,
 
+  "jupyter.notebookFileRoot": "${fileDirname}",
+
   // Line numbers in Jupyter notebooks
   "notebook.lineNumbers": "on"
 }
