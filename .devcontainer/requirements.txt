@@ -8,7 +8,11 @@ ipykernel
 # ==========================================
 # CORE DATA SCIENCE & ANALYSIS
 # ==========================================
+numpy
+pandas
+matplotlib
 seaborn
+scipy
 scikit-learn
 scikit-image
 xgboost
@@ -18,19 +22,24 @@ xgboost
 # GEOSPATIAL ANALYSIS & MAPPING
 # ==========================================
 geopandas
+shapely
 folium
+mapclassify
 
 
 # ==========================================
 # WEB SCRAPING & IMAGE PROCESSING
 # ==========================================
+requests
 beautifulsoup4
+imageio
 
 
 # ==========================================
 # MACHINE LEARNING / DEEP LEARNING
 # ==========================================
 tensorflow
+keras
 
 
 # ==========================================
@@ -38,6 +47,7 @@ tensorflow
 # ==========================================
 ipywidgets
 nbformat
+pytest
 ipytest
 flake8
 nb-mypy
