@@ -38,7 +38,7 @@ project:
         - file: lectures/data-frames.ipynb
         - file: lectures/groupby-and-indexing.ipynb
         - file: lectures/data-visualization.ipynb
-        - file: lectures/data-settings.ipynb
+        - file: lectures/time-series.ipynb
         - file: lectures/learning-algorithms.ipynb
         - file: lectures/geospatial-data-frames.ipynb
         - file: lectures/dissolve-intersect-and-join.ipynb
@@ -123,6 +123,8 @@ project:
         - file: machine-learning/leveraging-ml.md
     - title: Extras
       children:
+      - file: lectures/data-settings.ipynb
+        hidden: true
       - file: building.md
       - file: lectures/model-evaluation.ipynb
       - file: lectures/bias-variance-bias-and-bias.ipynb
