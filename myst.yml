@@ -39,6 +39,7 @@ project:
         - file: lectures/groupby-and-indexing.ipynb
         - file: lectures/data-visualization.ipynb
         - file: lectures/time-series.ipynb
+        - file: lectures/time-series-v2.ipynb
         - file: lectures/learning-algorithms.ipynb
         - file: lectures/geospatial-data-frames.ipynb
         - file: lectures/dissolve-intersect-and-join.ipynb
