@@ -9,7 +9,7 @@ title: FAQ
 :::{tab-item} General
 
 <iframe
-  src="https://fantastic-computing-machine-97j9vxvjvx992vr6-4000.app.github.dev/faq/general/"
+  src="https://nchs-cs.github.io/faq/general/"
   width="100%"
   height="900"
   style="border: none;"
@@ -20,7 +20,7 @@ title: FAQ
 :::{tab-item} Markdown
 
 <iframe
-  src="https://fantastic-computing-machine-97j9vxvjvx992vr6-4000.app.github.dev/faq/markdown/"
+  src="https://nchs-cs.github.io/faq/markdown/"
   width="100%"
   height="900"
   style="border: none;"
@@ -30,7 +30,7 @@ title: FAQ
 :::{tab-item} GitHub
 
 <iframe
-  src="https://fantastic-computing-machine-97j9vxvjvx992vr6-4000.app.github.dev/faq/github/"
+  src="https://nchs-cs.github.io/faq/github/"
   width="100%"
   height="900"
   style="border: none;"
@@ -40,7 +40,7 @@ title: FAQ
 :::{tab-item} Classroom50
 
 <iframe
-  src="https://fantastic-computing-machine-97j9vxvjvx992vr6-4000.app.github.dev/faq/classroom50/"
+  src="https://nchs-cs.github.io/faq/classroom50/"
   width="100%"
   height="900"
   style="border: none;"
