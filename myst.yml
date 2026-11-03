@@ -81,11 +81,6 @@ project:
             - file: classwork/xgboost/02_xgboost_introduction.ipynb
             - file: classwork/xgboost/03_xgboost_tuning.ipynb
             - file: classwork/xgboost/04_xgboost_case_study.ipynb
-    - title: Assignments
-      children:
-        - file: assignments/education.ipynb
-        - file: assignments/mapping.ipynb
-        - file: assignments/search.ipynb
     - title: Final Project
       file: project/index.md
       children:
