@@ -3,3 +3,5 @@ _build
 node_modules
 .jupyterlite.doit.db
 .venv/
+# Teacher-only solutions (never commit)
+.solutions/
