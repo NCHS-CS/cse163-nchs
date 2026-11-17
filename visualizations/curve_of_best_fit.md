@@ -21,7 +21,7 @@ the data points. We want an objective quantification that tells us whether a str
 the points, or some other curved line such as a parabola. We can compare how well two different lines fit using 
 the Mean Squared Error.  
 
-Often we want to know how much of a correlation there is between the x & y data points. Afterall, 
+Often we want to know how much of a correlation there is between the x & y data points. After all, 
 we may have just asked Seaborn to plot a regression line and the line presented is the best line that fits the
 data, but is the data linearly related at all? This is a different, but also important question! This is
 answered by looking at the `Coefficient of Determination`.  
@@ -109,13 +109,11 @@ interval. The confidence interval is 95% and students often misunderstand what i
 It does **NOT** mean that there is a 95% confidence that the points in the scatter plot will
 fall within the shaded interval. Clearly, that is not the case!  
 
-It means, insteatd, that there is a 95% confidence that the average of the scatter plot data falls within that range.
-I know what you're thinking: the average of the data is clear and concrete--there is no need to estimate it. 
-That is true. The average is easy to 
-calculate with a finite set of points that **are** the _true population_ data. 
-`regplot` estimates what the _true population_ might look like assuming that your data is just a sample. It then calculates
-the confidence interval based on the assumption that the errors (residuals) in the regression model 
-follow a normal distribution. It is 95% sure that the _true average_ falls in that range.  
+It means, instead, that there is a 95% confidence that the _true regression line_ falls within the shaded band.
+At each x, the regression line is an estimate of the _average_ y value at that x.
+`regplot` treats your data as just a sample from a larger _true population_. A different sample would give a slightly
+different line, so the band shows where the line for the true population probably is. It calculates the band
+based on the assumption that the errors (residuals) in the regression model follow a normal distribution.  
 
 Note that in your research, you may want to extend the curve of best fit out further. You can see
 how to do this in the next plot below.  
@@ -187,10 +185,10 @@ plt.text(42, 20, f'm = {slope:.2f}\nb = {intercept:.2f}\nR2 = {r_value**2:.2f}\n
 :::{tab-item} Comments
 
 The nice thing about using `linregress` is that it will provide multiple pieces of information
-for us in one simple call. It gives use the slope and intercept values, along with the `r_value` that
+for us in one simple call. It gives us the slope and intercept values, along with the `r_value` that
 we can square to get the Coefficient of Determination.  
 
-Interestingly, `linregress` returns an object, not a list of values. However, because the linrgress object
+Interestingly, `linregress` returns an object, not a list of values. However, because the object `linregress`
 returns implements the special method `__iter__`, the object can be unpacked into a set of values. This gives
 some flexibility in how the caller wants to receive the values. The caller can keep the object and dereference
 the object, or the specific values can be immediately unpacked upon receipt. Cool!  
@@ -422,17 +420,17 @@ plt.show()
 
 ## Curve Fit
 Here we see how we can find a curve of best fit to a custom, continuous curve: a sine wave whose amplitude decays exponentially. 
-This is a continuous curve with no x-value that causes a division by zero. This allows us to use the `curve_fit` API. It will
+This is a continuous curve with no x-value that causes a division by zero. This allows us to use the `curve_fit` API. It is
 highly unlikely that you'll ever want to fit a set of points to a curve like this. In the event that you ever encounter
 wave data, you'll more likely want to leverage [Fourier Transforms.](https://youtu.be/spUNpyF58BY) The
 reason we use a sinusoidal wave is simply to illustrate how `curve_fit` can be used on any curve.  
 
-To fit a line to a curve:  
+To fit a curve to a set of points:  
 1. Identify an equation that you want to fit. You'll create a method that has the generalized
 equation with coefficients that are unknown. For example, a line is: `y = mx + b` where curve_fit will identify the values
 for `m` and `b`. You may have a polynomial curve such as: `y = a*x**4 + b*x**3 + c*x**2 + d*x + e` and curve_fit will
-find the values for `a` through `e`. If you know want to fix one of the values, you can use a constant to the known
-value. Write a method that takes `x` along with the coefficients are arguments. For example:  
+find the values for `a` through `e`. If you want to fix one of the values, you can use a constant for the known
+value. Write a method that takes `x` along with the coefficients as arguments. For example:  
 ```python
 def my_function(x, a, b, c):
     return a*x**2 + b*x + c
@@ -508,7 +506,7 @@ in the code of the Sinusoidal tab.)
 
 The inset shows how the actual arguments used when generating the points with noise, and it compares
 them against the coefficients for the curve of best fit. Here you can see that it slightly underestimated
-the amplitude. It was 0.15 off of the frequency, only 0.01 way from the rate of degradation, and only
+the amplitude. It was 0.15 off of the frequency, only 0.01 away from the rate of decay, and only
 0.02 away from the offset. The phase was 6.56 off of the actual phase used.  
 ![regplot](./images/bestfit_curve_fit.png)
 
@@ -553,14 +551,14 @@ def find_curve_best_fit():
 
 The code for the sinusoidal curve equation is provided in the 'See Code' dropdown in the 
 'Sinusoidal' tab. In this method we chose to have all the coefficients be named arguments with
-default values. This allows us to to easily modify our code to hold some values constant and
+default values. This allows us to easily modify our code to hold some values constant and
 allow `curve_fit` to solve for the others. If we had chosen to make `p0` have only two values
 in it, then curve_fit would have solved for amplitude & frequency while holding `r`, `phase`
 and `offset` constant.  
 
 In this plot, we first generated our set of points to which we will fit the sinusoidal curve.
 These points are intended to be 'actual' data points in our hypothetical experiment that will have some noise.
-We generate the points by calling our sinusoidal method will all the coefficients and then add some
+We generate the points by calling our sinusoidal method with all the coefficients and then add some
 random values intended to be "noise" or imperfections in the data. 
 
 We chose to pass around the many coefficient to `generate_points` and `logarithmic_sinusoidal_wave` by
@@ -582,7 +580,7 @@ to the equation we established. Each coefficient represents one dimension, and o
 represents values in an n-dimensional space. It then uses a method similar to "Gradient Descent"
 to find values that minimize the Mean Squared Error for our coefficients and the set of actual points.
 
-Confusing? See the video, [Gradient descent, how nerual
+Confusing? See the video, [Gradient descent, how neural
 networks learn](https://youtu.be/IHZwWFHWa-w?t=567), by 3Blue1Brown, to get a great visual on Gradient Descent. This video is tailored
 to neural networks, but the idea is the same. Gradient Descent is a mathematical method for optimizing
 in n-dimensional space.  
