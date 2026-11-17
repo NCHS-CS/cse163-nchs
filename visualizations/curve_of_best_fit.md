@@ -8,13 +8,13 @@ In this section, we will show how you can identify a Curve of Best Fit for a set
 The curve can be anything an equation can express, but there are some limitations with discontinuous curves and asymptotes.
 The easiest is finding a line of best fit. Secondarily, you can find the polynomial that fits the data points. Tertiary,
 you can provide an equation of a continuous curve involving a combination of functions such as sine or logarithm. 
-Lastly, you can have a non-continuous curve like Sigmoid or `y = 1 / (x - 3).  
+Lastly, you can have a curve with a discontinuity or asymptote, like `y = 1 / (x - 3)`.  
 
 We will review four different ways to get the equation of a fitted curve.  
 1. `scipy.stats.linregress`: a statistical method that identifies a line's coefficients as well some statistical information.  
 2. `numpy.polyfit`: a Numpy method that identifies the coefficients of any n-ordered polynomial.  
-3. `scipy.stats.curve_fit`: a statistical method that identifies the coefficients of **_any_ function** as well as some statistical information about the fit.  
-4. `ML LinearRegression`: 
+3. `scipy.optimize.curve_fit`: a statistical method that identifies the coefficients of **_any_ function** as well as some statistical information about the fit.  
+4. `sklearn.linear_model.LinearRegression`: a machine learning model that learns the coefficients from the data. This is covered on the [Predicting Distance](../machine-learning/regression-distance) page.  
 
 When identifying a Curve of Best Fit, it is good to know _how good_ the curve is at representing
 the data points. We want an objective quantification that tells us whether a straight line is better at fitting
@@ -40,7 +40,7 @@ Here is a table that shows some of the most frequent API we used in this section
 |---|-----|
 |[plt.plot](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html)|This does a simple line plot on the current axis. It does not offer 'ax=ax' argument.|  
 |[plt.scatter](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.scatter.html)|This does a simple scatter plot on the current axis. It does not offer 'ax=ax' argument.|  
-|[np.linspace](https://seaborn.pydata.org/generated/seaborn.regplot.html)| This creates a numpy array of values linearly spaced between [start, end] with a specific number of points. It is helpful in generating `x_data` during plotting.|   
+|[np.linspace](https://numpy.org/doc/stable/reference/generated/numpy.linspace.html)| This creates a numpy array of values linearly spaced between [start, end] with a specific number of points. It is helpful in generating `x_data` during plotting.|   
 |[np.polyfit](https://numpy.org/doc/stable/reference/generated/numpy.polyfit.html)|This identifies the coefficients of any n-ordered polynomial.|   
 |[linregress](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.linregress.html)|a statistical method that identifies a line's coefficients as well some statistical information.|  
 |[curve_fit](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html#scipy.optimize.curve_fit) |A statistical method that identifies the coefficients of **_any_ function** as well as some statistical information about the fit.|  
@@ -127,7 +127,7 @@ Here are some helpful links:
 **Note:** It is common to hide the shaded confidence interval in Seaborn's `regplot` by setting the named parameter `ci` to `None`, as shown below:
 
 ```python
-sns.regplot(x_data, y_data, ci=None)
+sns.regplot(x=x_data, y=y_data, ci=None)
 ```
 
 :::
@@ -198,7 +198,7 @@ the object, or the specific values can be immediately unpacked upon receipt. Coo
 Example call: 
 ```python   
     line_info = linregress(x_data, y_data)
-    print(f'R2={line_info.r_value**2:.2f}')  
+    print(f'R2={line_info.rvalue**2:.2f}')  
 ```
 
 :::
@@ -269,14 +269,14 @@ def best_parabola_fit():
     # Eliminate the confidence interval shading of the parabola and color the line red
     sns.regplot(x=x_data, y=y_data, ax=ax, order=2, ci=None, line_kws={'color':'red'})
     
-    # Determine if a linear line is a better fit using MSE
     # find the coefficients of the parabola that best fits the points generated
     # The coefficients are ordered from high order to lower order
     coeffs_2 = np.polyfit(x_data, y_data, 2)
     y_predicted_2 = [ coeffs_2[0]*x**2 + coeffs_2[1]*x + coeffs_2[2] for x in x_data]
     mse_degree_2 = mean_squared_error(y_data, y_predicted_2)
     
-    #  get coefficients for the line
+    # Use MSE to check whether a line fits better than the parabola.
+    # get coefficients for the line
     coeffs_1 = np.polyfit(x_data, y_data, 1)
     # Use vector math instead of a comprehension this time (because we can)
     y_predicted_1 = coeffs_1[1] + coeffs_1[0] * np.array(x_data)
@@ -315,9 +315,12 @@ any value that tells us how well the line fits our set of points. To identify th
 both the line and polynomial, we use `np.polyfit` and pass in the original data points with the order
 of polynomial to use.  
 
-Mean Squared Error (MSE) is defined to be the sum of all squared residuals (different between the line and
-the data point). The implementation is quite simple:  
-`   mse = sum([ (y1 - y2)**2 for y1, y2 in zip(y_points, y_line)])`  
+Mean Squared Error (MSE) is the mean (average) of all the squared residuals. A residual is the difference between
+the data point and the line. The implementation is quite simple:  
+`   mse = sum([ (y1 - y2)**2 for y1, y2 in zip(y_points, y_line)]) / len(y_points)`  
+
+Root Mean Squared Error (RMSE) is the square root of the MSE: `np.sqrt(mse)`. It is in the same units as `y`,
+so it reads as "the curve is off by about this much, on average."  
 
 In this sample code, we use "vector" math to calculate the y values for the line (or predicted curve).  
 `   y_predicted_1 = coeffs_1[1] + coeffs_1[0] * np.array(x_data)`  
@@ -332,8 +335,8 @@ conventional way to do vector math.
 
 Lastly, we make use of an inset to annotate some text to the graph so the reader can see how much
 better the curve is over the line. MSE values are relative and the values depend on the scale of the numbers.
-MSE values are most valuable when compared against another MSE value. In this case we can see how the 
-parabola's MSE value is close to half the value of the line's MSE.
+MSE values are most valuable when compared against another MSE value. In this case, the inset shows that the
+parabola's RMSE is only about two-thirds of the line's RMSE (78 vs. 114), so the parabola is the better fit.
 
 :::
 
@@ -418,7 +421,7 @@ plt.show()
 
 
 ## Curve Fit
-Here we see how we can find a curve of best fit to a custom, continuous curve: a logarithmically degrading, sinusoidal wave. 
+Here we see how we can find a curve of best fit to a custom, continuous curve: a sine wave whose amplitude decays exponentially. 
 This is a continuous curve with no x-value that causes a division by zero. This allows us to use the `curve_fit` API. It will
 highly unlikely that you'll ever want to fit a set of points to a curve like this. In the event that you ever encounter
 wave data, you'll more likely want to leverage [Fourier Transforms.](https://youtu.be/spUNpyF58BY) The
@@ -452,8 +455,8 @@ coeffs, _ = curve_fit(logarithmic_sinusoidal_wave, x_data, y_data, p0=p0)
 
 :::{tab-item} Sinusoidal
 
-In our custom curve, we have coefficients for each of the following: amplitude, frequency, rate of logarithmic 
-degradation, phase and offset.  
+In our custom curve, we have coefficients for each of the following: amplitude, frequency, rate of exponential 
+decay, phase and offset.  
 
 The top plot has "zero arguments" provided in the method `logarithmic_sinusoidal_wave` which means that
 it uses all the default values (10, 1, 0.2, 0, 0). This is why the title of the top plot is: "Arguments: ()".  
@@ -465,7 +468,7 @@ shows how the coefficients impact the curve. Pay attention to the values on the 
 ### See Code
 ```python
 def logarithmic_sinusoidal_wave(x, a=10, frequency=1, r=0.2, phase=0, offset=0):
-    # Logarithmic convergence of amplitude
+    # the amplitude decays exponentially toward 0 as x grows
     amplitude = a * np.exp(-r * x)
     return offset + amplitude * np.sin(2 * np.pi * frequency * x + phase)
 
@@ -514,7 +517,7 @@ the amplitude. It was 0.15 off of the frequency, only 0.01 way from the rate of 
 :::{tab-item} Code
 
 ```python
- def find_curve_best_fit():
+def find_curve_best_fit():
     def generate_points(noise, *args):
         '''
         *args : allow us to call the function with any number of arguments so long as they are in order.
