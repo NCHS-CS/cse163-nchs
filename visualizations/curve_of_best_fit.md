@@ -42,6 +42,7 @@ Here is a table that shows some of the most frequent API we used in this section
 |[plt.scatter](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.scatter.html)|This does a simple scatter plot on the current axis. It does not offer 'ax=ax' argument.|  
 |[np.linspace](https://numpy.org/doc/stable/reference/generated/numpy.linspace.html)| This creates a numpy array of values linearly spaced between [start, end] with a specific number of points. It is helpful in generating `x_data` during plotting.|   
 |[np.polyfit](https://numpy.org/doc/stable/reference/generated/numpy.polyfit.html)|This identifies the coefficients of any n-ordered polynomial.|   
+|[np.polyval](https://numpy.org/doc/stable/reference/generated/numpy.polyval.html)|This evaluates a polynomial (given its coefficients from `np.polyfit`) at every x value.|   
 |[linregress](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.linregress.html)|a statistical method that identifies a line's coefficients as well some statistical information.|  
 |[curve_fit](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html#scipy.optimize.curve_fit) |A statistical method that identifies the coefficients of **_any_ function** as well as some statistical information about the fit.|  
 |[mean_squared_error](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.mean_squared_error.html)|Calculates the Mean Squared Error (MSE) from two sets of y_data points.|  
@@ -416,6 +417,33 @@ plt.show()
 :::
 
 ::::
+
+
+## Choosing the Degree with MSE
+In the plot above, the parabola had a lower MSE than the line. So would a cubic (degree 3) beat the parabola?
+Would degree 10 beat them all? **If you measure MSE on the same points you fit the curve to, a higher degree
+always wins** (or ties). A higher-degree polynomial can always do at least as well as a lower-degree one,
+because it could set its extra coefficient to 0. With enough coefficients, the curve can pass through every
+single point.
+
+That doesn't make it a better curve. A very high-degree curve bends to chase the random noise in the data.
+It looks perfect on the points it was fit to, but it wiggles between them and can shoot off wildly just past
+the last point. This is called **overfitting**. The curve memorized the points instead of learning the trend.
+
+So how do you use MSE to choose the degree?
+- **Best:** set some points aside before fitting. Fit each degree to the rest, then compare the MSE on the
+  points you set aside. The degree with the lowest MSE on those _unseen_ points is the one that predicts best.
+  This is the same _train/test split_ used in machine learning.
+- **If you can't set points aside:** look for the "elbow," the degree where MSE stops dropping much. Big
+  drops mean the curve is capturing the real shape. Tiny drops after that are probably just fitting noise.
+
+To try many degrees, `np.polyval` is handy. It takes the coefficients from `np.polyfit` and evaluates
+the polynomial at every x, for any degree:
+
+```python
+coeffs = np.polyfit(x_data, y_data, 3)       # [a, b, c, d] for a*x^3 + b*x^2 + c*x + d
+y_predicted = np.polyval(coeffs, x_data)     # predicted y for every x in x_data
+```
 
 
 ## Curve Fit
